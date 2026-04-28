@@ -1,0 +1,1093 @@
+mondo_id,total_epitopes,self_antigen_ratio,self_antigen_count,unique_antigens,disease_name
+15,1997,0.9744616925388082,1946,164,classic complement early component deficiency
+213,8578,0.3969456749825134,3405,299,"autoimmune disease, multisystem, infantile-onset"
+225,1885,0.9681697612732096,1825,171,human monocytic ehrlichiosis
+320,100,0.0,0,45,glandular tularemia
+432,113,1.0,113,22,lymphoplasmacytic lymphoma
+450,3832,0.8311586638830898,3185,308,secondary progressive multiple sclerosis
+451,4024,0.838220675944334,3373,333,primary progressive multiple sclerosis
+452,3844,0.8316857440166493,3197,309,progressive relapsing multiple sclerosis
+568,8874,0.391255352715799,3472,373,autoimmune disorder of central nervous system
+569,9056,0.4034893992932862,3654,418,autoimmune disorder of endocrine system
+572,1997,0.9744616925388082,1946,164,recombinase activating gene 1 deficiency
+573,1997,0.9744616925388082,1946,164,recombinase activating gene 2 deficiency
+583,1997,0.9744616925388082,1946,164,immunoglobulin beta deficiency
+586,8874,0.391255352715799,3472,373,autoimmune disorder of exocrine system
+587,8176,0.3674168297455968,3004,298,"autoimmune disease of ear, nose and throat"
+588,8443,0.3839867345730191,3242,370,autoimmune disorder of gastrointestinal tract
+589,8874,0.391255352715799,3472,373,autoimmune disorder of musculoskeletal system
+590,8874,0.391255352715799,3472,373,autoimmune disorder of peripheral nervous system
+602,8176,0.3674168297455968,3004,298,autoimmune disorder of blood
+603,8876,0.3913925191527715,3474,373,autoimmune disorder of cardiovascular system
+612,18576,0.9804048234280792,18212,7583,lymphatic system cancer
+621,26590,0.7909364422715307,21031,7842,immune system cancer
+630,9200,0.3973913043478261,3656,463,immune system organ benign neoplasm
+701,10,0.0,0,0,ischemic colitis
+702,10,0.0,0,0,microscopic colitis
+703,10,0.0,0,0,collagenous colitis
+704,237,0.4641350210970464,110,44,lymphocytic colitis
+705,10,0.0,0,0,Clostridium difficile colitis
+706,10,0.0,0,0,chemical colitis
+707,10,0.0,0,0,diversion colitis
+708,20,0.5,10,2,Crohn jejunoileitis
+709,20,0.5,10,2,Crohn ileitis
+710,20,0.5,10,2,gastroduodenal Crohn disease
+715,12238,0.9795718254616768,11988,3736,lymph node adenoid cystic carcinoma
+771,31722,0.0085744908896034,272,699,allergic respiratory disease
+774,8239,0.372253914309989,3067,299,autoimmune neuropathy
+775,17382,0.0010930848003681,19,269,drug allergy
+777,17578,0.0121743087950847,214,325,gastrointestinal allergy
+807,17382,0.0010930848003681,19,269,latex allergy
+814,1790,0.3614525139664804,647,173,B-cell adult acute lymphocytic leukemia
+871,1740,0.3431034482758621,597,174,T-cell childhood acute lymphocytic leukemia
+872,1623,0.3678373382624769,597,169,B-cell childhood acute lymphoblastic leukemia
+875,1673,0.3867304243873281,647,168,adult acute monocytic leukemia
+901,118,1.0,118,23,relapsed/refractory diffuse large B-cell lymphoma
+951,117,1.0,117,23,thymus lymphoma
+1082,18402,0.9855450494511466,18136,7606,lymph node cancer
+1093,44,1.0,44,38,colonic lymphangioma
+1115,6,1.0,6,1,familial polycythemia
+1222,1749,0.9845626072041166,1722,164,congenital T-cell immunodeficiency
+1238,6,1.0,6,1,polycythemia neonatorum
+1290,30562,0.0014069759832471,43,674,allergic cutaneous vasculitis
+1313,31732,0.0219967225513677,698,883,acute allergic serous otitis media
+1341,1997,0.9744616925388082,1946,164,selective IgA deficiency disease
+1366,4,1.0,4,1,splenic sequestration
+1367,245,1.0,245,62,chronic congestive splenomegaly
+1598,77,1.0,77,51,benign lymphoepithelial lesion of salivary gland
+1607,696,0.8074712643678161,562,130,intrapelvic lymph node leukemic reticuloendotheliosis
+1614,696,0.8074712643678161,562,130,intra-abdominal lymph node mast cell malignancy
+1892,113,1.0,113,22,spinal cord lymphoma
+1901,1997,0.9744616925388082,1946,164,selective IgG subclass deficiency
+2047,4178,0.7853039731929152,3281,308,pulmonary systemic sclerosis
+2138,30344,0.0017466385446875,53,649,allergic contact dermatitis of eyelid
+2163,4,1.0,4,1,thymus lipoma
+2211,1997,0.9744616925388082,1946,164,B cell deficiency
+2332,4,1.0,4,1,splenic disorder
+2333,4,1.0,4,1,splenic abscess
+2343,4,1.0,4,1,splenic hemangioma
+2437,6,1.0,6,1,dehydration polycythemia
+2438,6,1.0,6,1,acquired polycythemia
+2440,6,1.0,6,1,erythropoietin polycythemia
+2571,1193,0.8021793797150042,957,132,primary central nervous system lymphoma
+2586,17706,0.9925449000338868,17574,7521,thymus cancer
+2592,230,1.0,230,108,invasive malignant thymoma
+2726,534,0.0,0,26,cutaneous solitary mastocytoma
+2966,595,0.9798319327731092,583,130,splenic manifestation of prolymphocytic leukemia
+2977,8874,0.391255352715799,3472,373,autoimmune disorder of the nervous system
+2984,74,1.0,74,6,reticulohistiocytic granuloma
+3047,11685,0.9934103551561831,11608,3660,thymic large cell neuroendocrine carcinoma
+3067,119,1.0,119,30,cervical lymphadenitis
+3086,11503,0.9933060940624184,11426,3627,thymic mucoepidermoid carcinoma
+3209,2606,0.991174213353799,2583,835,thymus gland adenocarcinoma
+3393,28,1.0,28,11,thymus gland disorder
+3493,11507,0.993308420961154,11430,3627,thymus squamous cell carcinoma
+3534,2591,0.9911231184870706,2568,825,papillary thymic adenocarcinoma
+3539,1791,0.3618090452261306,648,174,T-cell adult acute lymphocytic leukemia
+3551,11503,0.9933060940624184,11426,3627,thymic adenosquamous carcinoma
+3627,500,0.194,97,19,rheumatic pulmonary valve disease
+3655,117,0.9829059829059827,115,26,cerebral lymphoma
+3738,1997,0.9744616925388082,1946,164,selective IgE deficiency disease
+3739,1997,0.9744616925388082,1946,164,selective immunoglobulin deficiency disease
+3780,1749,0.9845626072041166,1722,164,T-cell immunodeficiency
+3832,1997,0.9744616925388082,1946,164,complement deficiency
+3848,4,1.0,4,1,ectopic thymus
+3864,477,0.7547169811320755,360,89,chronic lymphocytic leukemia/small lymphocytic lymphoma
+3976,109,1.0,109,39,malignant type AB thymoma
+4051,591,0.9796954314720812,579,129,aleukemic monocytic leukemia cutis
+4092,11503,0.9933060940624184,11426,3627,thymic basaloid carcinoma
+4095,86,1.0,86,43,B-cell neoplasm
+4104,595,0.9798319327731092,583,130,splenic manifestation of hairy cell leukemia
+4107,595,0.9798319327731092,583,130,splenic manifestation of leukemia
+4110,591,0.9796954314720812,579,129,refractory hairy cell leukemia
+4122,11507,0.993308420961154,11430,3627,thymus small cell carcinoma
+4147,109,1.0,109,39,noninvasive malignant thymoma
+4152,477,0.7547169811320755,360,89,chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation
+4165,1997,0.9744616925388082,1946,164,selective IgD deficiency disease
+4195,2,1.0,2,1,thymic dysplasia
+4297,11503,0.9933060940624184,11426,3627,lymphoepithelioma-like thymic carcinoma
+4380,196,1.0,196,26,dendritic cell sarcoma
+4385,67,1.0,67,5,adult xanthogranuloma
+4400,109,1.0,109,39,malignant type A thymoma
+4463,2218,0.9815148782687104,2177,529,cellular phase chronic idiopathic myelofibrosis
+4475,11526,0.9933194516744752,11449,3627,thymus clear cell carcinoma
+4478,477,0.7547169811320755,360,89,pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma
+4528,696,0.8074712643678161,562,130,lymph node palisaded myofibroblastoma
+4563,6,1.0,6,1,physiological polycythemia
+4586,1329,0.8465011286681715,1125,115,rheumatoid lung disease
+4612,109,1.0,109,39,malignant histiocytosis
+4642,17719,0.9925503696596872,17587,7521,tonsillar pillar cancer
+4643,591,0.9796954314720812,579,129,myeloid leukemia
+4644,591,0.9796954314720812,579,129,subacute monocytic leukemia
+4653,639,1.0,639,161,"atypical chronic myeloid leukemia, BCR-ABL1 negative"
+4670,528,0.5871212121212122,310,51,lupus erythematosus
+4680,192,0.9791666666666666,188,25,primary thrombocytopenia
+4685,17706,0.9925449000338868,17574,7521,Waldeyer's ring cancer
+4690,17706,0.9925449000338868,17574,7521,tonsillar fossa cancer
+4784,30012,0.0009662801546048,29,645,allergic asthma
+4802,290,0.0310344827586206,9,11,pulmonary eosinophilia
+4803,238,0.4453781512605042,106,19,disseminated eosinophilic collagen disease
+4815,353,0.9518413597733713,336,61,osteosclerotic plasma cell myeloma
+4816,93,1.0,93,43,refractory plasma cell neoplasm
+4817,353,0.9518413597733713,336,61,non-secretory plasma cell myeloma
+4819,353,0.9518413597733713,336,61,indolent plasma cell myeloma
+4928,696,0.8074712643678161,562,130,lymph node disorder
+4947,1608,0.3619402985074627,582,165,B-cell acute lymphoblastic leukemia
+4948,771,0.8326848249027238,642,141,B-cell chronic lymphocytic leukemia
+4949,83,1.0,83,42,neoplasm of mature B-cells
+4959,93,1.0,93,43,plasma cell neoplasm
+4963,1609,0.3623368551895587,583,166,T-cell acute lymphoblastic leukemia
+4980,332,0.072289156626506,24,8,atopic eczema
+4996,1623,0.3678373382624769,597,169,childhood acute myeloid leukemia
+5011,20,0.5,10,2,Crohn disease
+5019,93,0.989247311827957,92,8,diffuse scleroderma
+5029,19,1.0,19,1,essential thrombocythemia
+5083,306,0.8758169934640523,268,57,psoriasis
+5100,3888,0.8415637860082305,3272,297,systemic sclerosis
+5101,10,0.0,0,0,ulcerative colitis
+5118,1859,0.9817105970952124,1825,170,human granulocytic anaplasmosis
+5130,2721,0.00404263138552,11,75,celiac disease
+5147,5824,0.6237980769230769,3633,440,type 1 diabetes mellitus
+5176,53,1.0,53,40,benign insulitis
+5185,2141,0.8028958430639888,1719,208,chronic childhood arthritis
+5197,87,1.0,87,43,thymus neoplasm
+5202,30344,0.0017466385446875,53,649,atopic IgE-mediated allergic disorder
+5204,212,0.981132075471698,208,26,primary antiphospholipid syndrome
+5223,1608,0.3619402985074627,582,165,acute myeloid leukemia with minimal differentiation
+5224,1608,0.3619402985074627,582,165,acute myeloblastic leukemia without maturation
+5235,353,0.9518413597733713,336,61,smoldering plasma cell myeloma
+5265,63,1.0,63,6,inflammatory bowel disease
+5271,30012,0.0009662801546048,29,645,allergic disease
+5282,1062,0.2919020715630885,310,77,cutaneous lupus erythematosus
+5284,4077,0.8413048810399804,3430,365,chronic progressive multiple sclerosis
+5292,10,0.0,0,0,colitis
+5301,3599,0.8849680466796332,3185,298,multiple sclerosis
+5306,185,0.6324324324324324,117,33,ankylosing spondylitis
+5314,3599,0.8849680466796332,3185,298,relapsing-remitting multiple sclerosis
+5324,30012,0.0009662801546048,29,645,seasonal allergic rhinitis
+5364,437,0.9954233409610984,435,9,Graves disease
+5374,83,1.0,83,42,bone marrow neoplasm
+5435,516,0.9767441860465116,504,31,anti-neutrophil antibody associated vasculitis
+5438,888,0.8490990990990991,754,210,metastatic malignant neoplasm in the lymph nodes
+5511,1997,0.9744616925388082,1946,164,janus kinase-3 deficiency
+5525,592,0.9797297297297296,580,130,T-cell leukemia
+5532,30,0.3333333333333333,10,2,Crohn's colitis
+5533,10,0.0,0,0,distal colitis
+5535,20,0.5,10,2,oral Crohn disease
+5537,20,0.5,10,2,perianal Crohn disease
+5539,3525,0.997163120567376,3515,1581,small bowel Crohn disease
+5543,25920,0.1301697530864197,3374,551,autoimmune hepatitis type 1
+5551,17382,0.0010930848003681,19,269,eye allergy
+5571,6,1.0,6,1,polycythemia
+5572,6,1.0,6,1,polycythemia due to hypoxia
+5623,8189,0.3684210526315789,3017,300,autoimmune thyroid disease
+5624,372,0.8198924731182796,305,11,atrophic thyroiditis
+5642,332,0.072289156626506,24,8,atopic conjunctivitis
+5764,251,1.0,251,38,follicular dendritic cell sarcoma
+5798,9,0.0,0,2,HIV-associated nephropathy
+5807,9,1.0,9,2,idiopathic CD4-positive T-lymphocytopenia
+5813,196,1.0,196,26,interdigitating dendritic cell sarcoma
+5831,45047,0.0125202566208626,564,5992,lymph node tuberculosis
+5833,889,0.7390326209223848,657,87,lymphatic system disorder
+5854,338,0.6005917159763313,203,57,mixed connective tissue disease
+5966,17706,0.9925449000338868,17574,7521,spleen cancer
+5967,44355,0.0001352722353736,6,5865,splenic tuberculosis
+6004,8392,0.0,0,49,vasomotor rhinitis
+6038,10,0.0,0,0,indeterminate colitis
+6039,6367,0.6805402858489085,4333,568,infectious colitis
+6115,2941,0.9853791227473648,2898,754,"blast phase chronic myelogenous leukemia, BCR-ABL1 positive"
+6117,1350,0.9925925925925926,1340,410,breast diffuse large B-cell lymphoma
+6119,1745,0.9146131805157592,1596,466,breast mucosa-associated lymphoid tissue lymphoma
+6128,1039,0.7767083734359962,807,115,central nervous system anaplastic large cell lymphoma
+6150,770,0.961038961038961,740,217,colon Burkitt lymphoma
+6158,11568,0.9987033195020748,11553,6027,colorectal diffuse large B-cell lymphoma
+6188,22,1.0,22,11,EBV-positive T-cell lymphoproliferative disorder of childhood
+6223,412,1.0,412,57,gastric diffuse large B-cell lymphoma
+6225,407,1.0,407,56,gastric mantle cell lymphoma
+6226,807,0.8277571251548946,668,115,gastric mucosa-associated lymphoid tissue lymphoma
+6237,196,1.0,196,26,granulocytic sarcoma
+6268,131,1.0,131,30,liver diffuse large B-cell lymphoma
+6311,83,1.0,83,42,myelodysplastic/myeloproliferative neoplasm
+6383,731,0.2640218878248974,193,53,"primary cutaneous diffuse large B-cell lymphoma, Leg type"
+6387,600,0.525,315,59,primary pulmonary diffuse large B-cell lymphoma
+6416,3843,0.9921935987509758,3813,1653,small intestinal Burkitt lymphoma
+6417,3848,0.9922037422037422,3818,1654,small intestinal diffuse large B-cell lymphoma
+6418,3850,0.9922077922077922,3820,1658,small intestinal enteropathy-associated T-cell lymphoma
+6420,4243,0.9601696912561868,4074,1716,small intestinal mucosa-associated lymphoid tissue lymphoma
+6428,118,1.0,118,23,splenic diffuse large B-cell lymphoma
+6430,113,1.0,113,22,splenic mantle cell lymphoma
+6450,302,1.0,302,87,therapy-related myeloid neoplasm
+6451,11503,0.9933060940624184,11426,3627,thymic carcinoma
+6452,11503,0.9933060940624184,11426,3627,thymic sarcomatoid carcinoma
+6455,11503,0.9933060940624184,11426,3627,thymic undifferentiated carcinoma
+6462,527,0.872865275142315,460,46,thyroid gland diffuse large B-cell lymphoma
+6464,922,0.7765726681127982,716,108,thyroid gland mucosa-associated lymphoid tissue lymphoma
+6470,11503,0.9933060940624184,11426,3627,tonsillar squamous cell carcinoma
+6525,30344,0.0017466385446875,53,649,allergic contact dermatitis
+6526,30012,0.0009662801546048,29,645,allergic urticaria
+6558,139,1.0,139,4,pemphigoid gestationis
+6565,597,0.1273031825795645,76,34,juvenile dermatitis herpetiformis
+6594,64,1.0,64,4,pemphigus
+6596,522,0.053639846743295,28,10,photoallergic dermatitis
+6616,522,0.053639846743295,28,10,toxicodendron dermatitis
+6673,28,1.0,28,13,pituitary gland basophil adenoma
+6704,8239,0.372253914309989,3067,299,CNS demyelinating autoimmune disease
+6794,16,0.875,14,3,hypersensitivity vasculitis
+6861,415,1.0,415,70,myeloid sarcoma
+6866,925,0.8810810810810811,815,20,neonatal myasthenia gravis
+6978,96,0.9791666666666666,94,18,splenic infarction
+6998,17744,0.992560865644725,17612,7524,tonsil cancer
+7005,10,0.0,0,0,ulcerative proctosigmoiditis
+7064,3014,0.6466489714664897,1949,195,"severe combined immunodeficiency, autosomal recessive, T cell-negative, B cell-negative, NK cell-negative, due to adenosine deaminase deficiency"
+7179,8176,0.3674168297455968,3004,298,autoimmune disease
+7243,113,1.0,113,22,Burkitt lymphoma
+7293,1997,0.9744616925388082,1946,164,leukocyte adhesion deficiency 1
+7361,1997,0.9744616925388082,1946,164,C1 inhibitor deficiency
+7406,192,0.9791666666666666,188,25,"cryofibrinogenemia, familial primary"
+7546,30,1.0,30,2,"myeloproliferative disorder, chronic, with eosinophilia"
+7572,595,0.9932773109243698,591,156,primary familial polycythemia due to EPO receptor mutation
+7650,113,1.0,113,22,MALT lymphoma
+7691,31,0.967741935483871,30,5,"Guillain-Barre syndrome, familial"
+7699,372,0.8198924731182796,305,11,Hashimoto thyroiditis
+7725,251,0.0717131474103585,18,27,hereditary progressive mucinous histiocytosis
+7727,3068,0.294980443285528,905,207,TNF receptor 1-associated periodic fever syndrome
+7814,8205,0.3666057282145034,3008,301,"immune deficiency, familial variable"
+7817,332,0.072289156626506,24,8,"IgE responsiveness, atopic"
+7818,88,0.2272727272727272,20,21,"hyper-IgE recurrent infection syndrome 1, autosomal dominant"
+7896,1608,0.3619402985074627,582,165,acute monocytic leukemia
+7915,620,0.646774193548387,401,58,systemic lupus erythematosus
+7921,3,0.0,0,2,yellow nail syndrome
+8036,8176,0.3674168297455968,3004,298,"myasthenia, limb-girdle, autoimmune"
+8040,30,1.0,30,2,transient myeloproliferative syndrome
+8109,157,1.0,157,5,ocular cicatricial pemphigoid
+8219,64,1.0,64,4,pemphigus vulgaris
+8383,1881,0.7756512493354598,1459,143,rheumatoid arthritis
+8418,233,0.0,0,12,"scleroderma, familial progressive"
+8558,8184,0.3680351906158358,3012,300,autoimmune thrombocytopenic purpura
+8617,63,1.0,63,6,inflammatory bowel disease 11
+8661,238,1.0,238,8,vitiligo
+8669,30012,0.0009662801546048,29,645,"vulvovaginitis, allergic seminal"
+8704,2762,0.6223750905141202,1719,194,short-limb skeletal dysplasia with severe combined immunodeficiency
+8742,1017,0.0029498525073746,3,36,autosomal dominant severe congenital neutropenia
+8855,1997,0.9744616925388082,1946,164,MHC class II deficiency
+9005,1997,0.9744616925388082,1946,164,complement component C1r/C1s deficiency
+9006,1997,0.9744616925388082,1946,164,complement component 2 deficiency
+9051,544,0.0,0,26,cutaneous photosensitivity-lethal colitis syndrome
+9213,285,0.5719298245614035,163,11,Fanconi anemia complementation group C
+9214,285,0.5719298245614035,163,11,Fanconi anemia complementation group D2
+9215,285,0.5719298245614035,163,11,Fanconi anemia complementation group A
+9230,233,0.0,0,12,"fibrosclerosis, multifocal"
+9284,1997,0.9744616925388082,1946,164,glutathione synthetase deficiency without 5-oxoprolinuria
+9288,1,0.0,0,0,glycogen storage disease Ib
+9306,1741,0.9844916714531878,1714,157,combined immunodeficiency with skin granulomas
+9308,402,0.9975124378109452,401,9,"granulomatous disease, chronic, autosomal recessive, cytochrome b-negative"
+9309,402,0.9975124378109452,401,9,"granulomatous disease, chronic, autosomal recessive, cytochrome b-positive, type 1"
+9310,402,0.9975124378109452,401,9,"granulomatous disease, chronic, autosomal recessive, cytochrome b-positive, type 2"
+9338,44,1.0,44,9,hepatic veno-occlusive disease-immunodeficiency syndrome
+9411,8176,0.3674168297455968,3004,298,autoimmune polyendocrine syndrome type 1
+9458,2,1.0,2,1,Schimke immuno-osseous dysplasia
+9464,1749,0.9845626072041166,1722,164,immunodeficiency with defective T-cell response to interleukin 1
+9478,1997,0.9744616925388082,1946,164,combined immunodeficiency due to DOCK8 deficiency
+9506,1997,0.9744616925388082,1946,164,specific granule deficiency
+9534,421,0.980997624703088,413,101,chronic mucocutaneous candidiasis due to inhibition of lymphoblastic transformation
+9536,421,0.980997624703088,413,101,chronic mucocutaneous candidiasis due to intrinsic defect in lymphoblastic transformation
+9540,2244,0.9763814616755794,2191,227,chronic mucocutaneous candidiasis due to lymphokine deficiency
+9572,2182,0.0091659028414298,20,55,autosomal recessive familial Mediterranean fever
+9601,2,1.0,2,1,metaphyseal dysplasia without hypotrichosis
+9645,247,0.9919028340080972,245,63,chronic mucocutaneous candidiasis due to monocyte chemotactic disorder
+9688,925,0.8810810810810811,815,20,myasthenia gravis
+9692,202,0.9801980198019802,198,26,primary myelofibrosis
+9693,353,0.9518413597733713,336,61,plasma cell myeloma
+9694,1997,0.9744616925388082,1946,164,myeloperoxidase deficiency
+9695,432,0.9976851851851852,431,11,"myeloproliferative disease, autosomal recessive"
+9757,402,0.9975124378109452,401,9,"Niemann-Pick disease, type C1"
+9761,55,0.2909090909090909,16,2,cystic hygroma
+9813,478,0.5125523012552301,245,74,chronic recurrent multifocal osteomyelitis
+9849,2182,0.0091659028414298,20,55,hyperimmunoglobulinemia D with periodic fever
+9891,6,1.0,6,1,acquired polycythemia vera
+9892,6,1.0,6,1,Chuvash polycythemia
+9933,290,0.0310344827586206,9,11,congenital pulmonary lymphangiectasia
+9947,1997,0.9744616925388082,1946,164,glutathione synthetase deficiency with 5-oxoprolinuria
+9953,1997,0.9744616925388082,1946,164,leukocyte adhesion deficiency type II
+9960,63,1.0,63,6,inflammatory bowel disease 1
+9975,196,1.0,196,26,reticulum cell sarcoma
+10012,8176,0.3674168297455968,3004,298,autoimmune polyendocrinopathy type 2
+10019,1997,0.9744616925388082,1946,164,secretory component deficiency
+10023,1997,0.9744616925388082,1946,164,combined immunodeficiency due to ZAP70 deficiency
+10030,57,0.912280701754386,52,5,Sjogren syndrome
+10122,139,1.0,139,5,congenital thrombotic thrombocytopenic purpura
+10149,1997,0.9744616925388082,1946,164,transcobalamin II deficiency
+10293,10205,0.4857422831945125,4957,465,ectodermal dysplasia and immune deficiency
+10294,1017,0.0029498525073746,3,36,X-linked severe congenital neutropenia
+10295,1,1.0,1,1,anhidrotic ectodermal dysplasia-immunodeficiency-osteopetrosis-lymphedema syndrome
+10296,1741,0.9844916714531878,1714,157,immunodeficiency 61
+10315,3014,0.6466489714664897,1949,195,T-B+ severe combined immunodeficiency due to gamma chain deficiency
+10351,285,0.5719298245614035,163,11,Fanconi anemia complementation group B
+10385,1997,0.9744616925388082,1946,164,X-linked lymphoproliferative disease due to XIAP deficiency
+10386,1741,0.9844916714531878,1714,157,immunodeficiency 33
+10455,2588,0.7921174652241113,2050,224,"X-linked immunodeficiency with magnesium defect, Epstein-Barr virus infection and neoplasia"
+10504,1741,0.9844916714531878,1714,157,immunodeficiency 47
+10514,1997,0.9744616925388082,1946,164,combined immunodeficiency due to moesin deficiency
+10580,8205,0.3666057282145034,3008,301,immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome
+10600,402,0.9975124378109452,401,9,"granulomatous disease, chronic, X-linked"
+10625,1997,0.9744616925388082,1946,164,"immunodeficiency, X-linked, with deficiency of 115,000 Dalton surface glycoprotein"
+10809,245,1.0,245,62,familial chronic myelocytic leukemia-like syndrome
+10938,3014,0.6466489714664897,1949,195,T-B+ severe combined immunodeficiency due to JAK3 deficiency
+10953,285,0.5719298245614035,163,11,Fanconi anemia complementation group E
+11024,522,0.053639846743295,28,10,"dermatitis herpetiformis, familial"
+11086,1017,0.0029498525073746,3,36,"severe combined immunodeficiency, autosomal recessive, T cell-negative, B cell-negative, NK cell-positive"
+11087,63,1.0,63,6,inflammatory bowel disease 2
+11118,1608,0.3619402985074627,582,165,bilineal acute myeloid leukemia
+11132,16,1.0,16,8,"T-cell immunodeficiency, congenital alopecia, and nail dystrophy"
+11158,8176,0.3674168297455968,3004,298,autoimmune lymphoproliferative syndrome type 1
+11166,2,1.0,2,1,lymphedema-atrial septal defects-facial changes syndrome
+11225,3014,0.6466489714664897,1949,195,severe combined immunodeficiency due to DCLRE1C deficiency
+11269,306,0.8758169934640523,268,57,psoriasis 2
+11325,285,0.5719298245614035,163,11,Fanconi anemia complementation group F
+11383,8176,0.3674168297455968,3004,298,autoimmune lymphoproliferative syndrome type 2A
+11471,63,1.0,63,6,inflammatory bowel disease 3
+11476,1997,0.9744616925388082,1946,164,MHC class I deficiency
+11521,63,1.0,63,6,inflammatory bowel disease 7
+11524,8176,0.3674168297455968,3004,298,Dianzani autoimmune lymphoproliferative disease
+11584,285,0.5719298245614035,163,11,Fanconi anemia complementation group D1
+11661,63,1.0,63,6,inflammatory bowel disease 5
+11664,1997,0.9744616925388082,1946,164,immunodeficiency due to CD25 deficiency
+11686,1997,0.9744616925388082,1946,164,DNA ligase IV deficiency
+11699,63,1.0,63,6,inflammatory bowel disease 8
+11700,63,1.0,63,6,inflammatory bowel disease 6
+11701,63,1.0,63,6,inflammatory bowel disease 4
+11768,929,0.8815931108719053,819,21,myasthenia gravis with thymus hyperplasia
+11786,30012,0.0009662801546048,29,645,allergic rhinitis
+11804,8176,0.3674168297455968,3004,298,autoimmune lymphoproliferative syndrome type 2B
+11849,1881,0.7756512493354598,1459,143,psoriatic arthritis
+11873,402,0.9975124378109452,401,9,"Niemann-Pick disease, type C2"
+11888,1741,0.9844916714531878,1714,157,immunodeficiency 67
+11895,9,1.0,9,2,idiopathic hypereosinophilic syndrome
+11908,666,0.9414414414414416,627,152,juvenile myelomonocytic leukemia
+11988,1741,0.9844916714531878,1714,157,neutrophil immunodeficiency syndrome
+11996,399,1.0,399,134,"chronic myelogenous leukemia, BCR-ABL1 positive"
+12040,63,1.0,63,6,inflammatory bowel disease 9
+12105,74,1.0,74,6,granulomatosis with polyangiitis
+12163,1741,0.9844916714531878,1714,157,immunodeficiency 104
+12186,285,0.5719298245614035,163,11,Fanconi anemia complementation group I
+12187,285,0.5719298245614035,163,11,Fanconi anemia complementation group J
+12291,1997,0.9744616925388082,1946,164,immunoglobulin A deficiency 2
+12295,1997,0.9744616925388082,1946,164,complement component 5 deficiency
+12359,1997,0.9744616925388082,1946,164,combined immunodeficiency due to partial RAG1 deficiency
+12383,2189,0.9748743718592964,2134,188,primary immunodeficiency with natural-killer cell deficiency and adrenal insufficiency
+12412,1997,0.9744616925388082,1946,164,complement component 7 deficiency
+12426,1741,0.9844916714531878,1714,157,immunodeficiency 25
+12500,528,0.5871212121212122,310,51,chilblain lupus 1
+12508,522,0.053639846743295,28,10,agammaglobulinemia-microcephaly-craniosynostosis-severe dermatitis syndrome
+12559,2189,0.9748743718592964,2134,188,primary immunodeficiency syndrome due to p14 deficiency
+12565,285,0.5719298245614035,163,11,Fanconi anemia complementation group N
+12579,8474,0.3565022421524663,3021,312,autoimmune pulmonary alveolar proteinosis
+12594,1997,0.9744616925388082,1946,164,complement factor I deficiency
+12610,63,1.0,63,6,inflammatory bowel disease 10
+12650,1997,0.9744616925388082,1946,164,Cernunnos-XLF deficiency
+12682,1741,0.9844916714531878,1714,157,immunodeficiency 35
+12727,698,0.8051575931232091,562,131,mucocutaneous lymph node syndrome
+12806,1744,0.9845183486238532,1717,158,ectodermal dysplasia and immunodeficiency 2
+12829,63,1.0,63,6,inflammatory bowel disease 12
+12831,63,1.0,63,6,inflammatory bowel disease 13
+12832,63,1.0,63,6,inflammatory bowel disease 14
+12837,63,1.0,63,6,inflammatory bowel disease 15
+12838,63,1.0,63,6,inflammatory bowel disease 16
+12839,3242,0.6027143738433066,1954,281,pyogenic bacterial infections due to MyD88 deficiency
+12840,63,1.0,63,6,inflammatory bowel disease 17
+12841,63,1.0,63,6,inflammatory bowel disease 18
+12845,63,1.0,63,6,inflammatory bowel disease 19
+12852,63,1.0,63,6,inflammatory bowel disease 20
+12875,63,1.0,63,6,inflammatory bowel disease 21
+12883,1608,0.3619402985074627,582,165,acute promyelocytic leukemia
+12886,63,1.0,63,6,inflammatory bowel disease 22
+12887,63,1.0,63,6,inflammatory bowel disease 23
+12908,1997,0.9744616925388082,1946,164,complement component 6 deficiency
+12930,3014,0.6466489714664897,1949,195,autosomal recessive severe congenital neutropenia due to G6PC3 deficiency
+12940,63,1.0,63,6,inflammatory bowel disease 24
+12941,63,1.0,63,6,inflammatory bowel disease 25
+12973,63,1.0,63,6,inflammatory bowel disease 26
+13007,1997,0.9744616925388082,1946,164,combined immunodeficiency due to ORAI1 deficiency
+13008,1997,0.9744616925388082,1946,164,combined immunodeficiency due to STIM1 deficiency
+13012,63,1.0,63,6,inflammatory bowel disease 27
+13016,1997,0.9744616925388082,1946,164,leukocyte adhesion deficiency 3
+13021,233,0.0,0,12,sterile multifocal osteomyelitis with periostitis and pustulosis
+13041,232,1.0,232,2,atypical hemolytic-uremic syndrome with I factor anomaly
+13042,232,1.0,232,2,atypical hemolytic-uremic syndrome with B factor anomaly
+13139,1017,0.0029498525073746,3,36,"neutropenia, severe congenital, 2, autosomal dominant"
+13153,63,1.0,63,6,inflammatory bowel disease 28
+13226,1741,0.9844916714531878,1714,157,combined immunodeficiency with faciooculoskeletal anomalies
+13248,285,0.5719298245614035,163,11,Fanconi anemia complementation group O
+13343,1997,0.9744616925388082,1946,164,C1Q deficiency
+13408,1741,0.9844916714531878,1714,157,FADD-related immunodeficiency
+13417,1997,0.9744616925388082,1946,164,complement component 3 deficiency
+13419,1997,0.9744616925388082,1946,164,complement component C1s deficiency
+13421,1997,0.9744616925388082,1946,164,type II complement component 8 deficiency
+13422,1997,0.9744616925388082,1946,164,type I complement component 8 deficiency
+13423,1997,0.9744616925388082,1946,164,immunodeficiency due to MASP-2 deficiency
+13427,1741,0.9844916714531878,1714,157,immunodeficiency 31B
+13445,1997,0.9744616925388082,1946,164,complement component 9 deficiency
+13467,1997,0.9744616925388082,1946,164,immunodeficiency due to ficolin3 deficiency
+13487,1997,0.9744616925388082,1946,164,recurrent Neisseria infections due to factor D deficiency
+13499,285,0.5719298245614035,163,11,Fanconi anemia complementation group P
+13500,1741,0.9844916714531878,1714,157,immunodeficiency 51
+13507,402,0.9975124378109452,401,9,"granulomatous disease, chronic, autosomal recessive, cytochrome b-positive, type 3"
+13565,285,0.5719298245614035,163,11,Fanconi anemia complementation group G
+13566,285,0.5719298245614035,163,11,Fanconi anemia complementation group L
+13576,2497,0.975570684821786,2436,190,recurrent infections associated with rare immunoglobulin isotypes deficiency
+13599,8421,0.3858211613822586,3249,354,autoimmune enteropathy and endocrinopathy - susceptibility to chronic infections syndrome
+13601,1997,0.9744616925388082,1946,164,gluthathione peroxidase deficiency
+13626,306,0.8758169934640523,268,57,"psoriasis 14, pustular"
+13693,465,0.9978494623655914,464,15,"inflammatory skin and bowel disease, neonatal, 1"
+13714,2022,0.9742828882294756,1970,177,mannose-binding lectin deficiency
+13720,1997,0.9744616925388082,1946,164,complement component 4b deficiency
+13721,1997,0.9744616925388082,1946,164,complement component 4a deficiency
+13739,528,0.5871212121212122,310,51,chilblain lupus 2
+13743,620,0.646774193548387,401,58,autosomal systemic lupus erythematosus type 16
+13767,8176,0.3674168297455968,3004,298,autoimmune lymphoproliferative syndrome type 4
+13851,2,1.0,2,1,autosomal dominant aplasia and myelodysplasia
+13863,1997,0.9744616925388082,1946,164,combined immunodeficiency due to LRBA deficiency
+13934,1997,0.9744616925388082,1946,164,combined immunodeficiency due to STK4 deficiency
+13953,1741,0.9844916714531878,1714,157,immunodeficiency 28
+14081,3014,0.6466489714664897,1949,195,severe combined immunodeficiency due to CARD11 deficiency
+14108,285,0.5719298245614035,163,11,Fanconi anemia complementation group Q
+14160,2005,0.974563591022444,1954,171,TCR-alpha-beta-positive T-cell deficiency
+14168,3014,0.6466489714664897,1949,195,severe combined immunodeficiency due to CORO1A deficiency
+14197,1997,0.9744616925388082,1946,164,combined immunodeficiency due to MALT1 deficiency
+14222,1741,0.9844916714531878,1714,157,immunodeficiency 14
+14226,9,1.0,9,2,idiopathic CD4 lymphocytopenia
+14267,3014,0.6466489714664897,1949,195,severe combined immunodeficiency due to IKK2 deficiency
+14268,1997,0.9744616925388082,1946,164,combined immunodeficiency due to OX40 deficiency
+14276,1997,0.9744616925388082,1946,164,combined immunodeficiency due to CD3gamma deficiency
+14278,1741,0.9844916714531878,1714,157,immunodeficiency 18
+14280,1741,0.9844916714531878,1714,157,immunodeficiency 19
+14313,1933,0.9839627521986548,1902,181,autosomal recessive primary immunodeficiency with defective spontaneous natural killer cell cytotoxicity
+14334,3014,0.6466489714664897,1949,195,severe combined immunodeficiency due to LCK deficiency
+14338,69,1.0,69,9,IL21-related infantile inflammatory bowel disease
+14353,1741,0.9844916714531878,1714,157,immunodeficiency 23
+14391,1997,0.9744616925388082,1946,164,combined immunodeficiency due to CTPS1 deficiency
+14414,8176,0.3674168297455968,3004,298,STAT3-related early-onset multisystem autoimmune disease
+14423,3014,0.6466489714664897,1949,195,severe combined immunodeficiency due to DNA-PKcs deficiency
+14453,1741,0.9844916714531878,1714,157,immunodeficiency 36 with lymphoproliferation
+14456,3014,0.6466489714664897,1949,195,autosomal recessive severe congenital neutropenia due to JAGN1 deficiency
+14481,465,0.9978494623655914,464,15,"inflammatory skin and bowel disease, neonatal, 2"
+14491,1741,0.9844916714531878,1714,157,immunodeficiency 37
+14493,8176,0.3674168297455968,3004,298,autoimmune lymphoproliferative syndrome due to CTLA4 haploinsufficiency
+14597,1741,0.9844916714531878,1714,157,immunodeficiency 39
+14637,1997,0.9744616925388082,1946,164,DOCK2 deficiency
+14638,285,0.5719298245614035,163,11,Fanconi anemia complementation group T
+14715,5445,0.7786960514233241,4240,487,primary immunodeficiency with post-measles-mumps-rubella vaccine viral infection
+14727,1741,0.9844916714531878,1714,157,immunodeficiency 45
+14760,1741,0.9844916714531878,1714,157,TFRC-related combined immunodeficiency
+14861,8578,0.3969456749825134,3405,299,"autoimmune disease, multisystem, infantile-onset, 2"
+14865,3014,0.6466489714664897,1949,195,autosomal recessive severe congenital neutropenia due to CSF3R deficiency
+14981,1741,0.9844916714531878,1714,157,immunodeficiency 49
+14985,285,0.5719298245614035,163,11,Fanconi anemia complementation group V
+14986,285,0.5719298245614035,163,11,Fanconi anemia complementation group R
+14987,285,0.5719298245614035,163,11,Fanconi anemia complementation group U
+15042,192,0.9791666666666666,188,25,primary plasmacytoma of the bone
+15043,338,0.6005917159763313,203,57,extramedullary soft tissue plasmacytoma
+15131,1741,0.9844916714531878,1714,157,combined immunodeficiency
+15164,1860,0.4435483870967742,825,195,acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent
+15165,1860,0.4435483870967742,825,195,acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor
+15166,1608,0.3619402985074627,582,165,acute myeloid leukemia with t(8;21)(q22;q22) translocation
+15174,8176,0.3674168297455968,3004,298,autoimmune enteropathy type 3
+15175,8176,0.3674168297455968,3004,298,autoimmune pancreatitis
+15176,10,0.0,0,0,undetermined colitis
+15243,30012,0.0009662801546048,29,645,allergic bronchopulmonary aspergillosis
+15279,247,0.9919028340080972,245,63,chronic mucocutaneous candidiasis
+15408,2,1.0,2,1,diffuse lymphatic malformation
+15517,1741,0.9844916714531878,1714,157,common variable immunodeficiency
+15533,53,1.0,53,40,benign cephalic histiocytosis
+15534,75,0.64,48,24,juvenile xanthogranuloma
+15538,203,1.0,203,51,indeterminate dendritic cell tumor
+15539,310,0.2483870967741935,77,24,progressive nodular histiocytosis
+15544,609,0.9835796387520526,599,66,acquired hemophagocytic lymphohistiocytosis associated with malignant disease
+15556,77,1.0,77,12,nodular urticaria pigmentosa
+15557,620,0.646774193548387,401,58,Smouldering systemic mastocytosis
+15573,1062,0.2919020715630885,310,77,subacute cutaneous lupus erythematosus
+15574,1307,0.4246365723029839,555,139,chronic cutaneous lupus erythematosus
+15608,1860,0.4435483870967742,825,195,acute myeloid leukemia and myelodysplastic syndromes related to radiation
+15614,522,0.053639846743295,28,10,dermatitis herpetiformis
+15667,1608,0.3619402985074627,582,165,acute myeloid leukemia by FAB classification
+15687,654,0.981651376146789,642,135,chronic eosinophilic leukemia
+15695,1741,0.9844916714531878,1714,157,combined immunodeficiency due to CRAC channel dysfunction
+15697,1997,0.9744616925388082,1946,164,immunoglobulin heavy chain deficiency
+15699,1997,0.9744616925388082,1946,164,immunodeficiency due to a classical component pathway complement deficiency
+15700,1997,0.9744616925388082,1946,164,immunodeficiency due to a late component of complement deficiency
+15701,3014,0.6466489714664897,1949,195,T-B+ severe combined immunodeficiency due to IL-7Ralpha deficiency
+15702,3014,0.6466489714664897,1949,195,T-B+ severe combined immunodeficiency due to CD45 deficiency
+15703,2758,0.6225525743292241,1717,193,T-B+ severe combined immunodeficiency due to CD3delta/CD3epsilon/CD3zeta
+15708,2,1.0,2,1,immuno-osseous dysplasia
+15759,116,1.0,116,22,B-cell non-Hodgkin lymphoma
+15813,842,0.3610451306413301,304,73,primary cutaneous marginal zone B-cell lymphoma
+15814,839,0.3587604290822407,301,73,primary cutaneous follicle center lymphoma
+15819,842,0.3610451306413301,304,73,indolent primary cutaneous B-cell lymphoma
+15943,74,1.0,74,6,eosinophilic granulomatosis with polyangiitis
+15974,2758,0.6225525743292241,1717,193,severe combined immunodeficiency
+16164,64,1.0,64,4,herpetiform pemphigus
+16218,31,0.967741935483871,30,5,Guillain-Barre syndrome
+16264,25920,0.1301697530864197,3374,551,autoimmune hepatitis
+16306,1017,0.0029498525073746,3,36,"Niemann-Pick disease type C, severe perinatal form"
+16307,1023,0.0087976539589442,9,39,"Niemann-Pick disease type C, severe early infantile neurologic onset"
+16308,6,1.0,6,3,"Niemann-Pick disease type C, late infantile neurologic onset"
+16309,75,0.64,48,24,"Niemann-Pick disease type C, juvenile neurologic onset"
+16310,67,1.0,67,5,"Niemann-Pick disease type C, adult neurologic onset"
+16356,4424,0.7400542495479204,3274,324,diffuse cutaneous systemic sclerosis
+16358,4422,0.7399366802351877,3272,323,limited cutaneous systemic sclerosis
+16359,3888,0.8415637860082305,3272,297,limited systemic sclerosis
+16422,8176,0.3674168297455968,3004,298,autoimmune polyendocrinopathy type 3
+16423,8176,0.3674168297455968,3004,298,autoimmune polyendocrinopathy type 4
+16429,4923,0.708714198659354,3489,393,Marburg acute multiple sclerosis
+16450,8176,0.3674168297455968,3004,298,"autoimmune hemolytic anemia, cold type"
+16474,563,0.5506216696269982,310,51,drug-induced lupus erythematosus
+16496,31,0.967741935483871,30,5,pharyngeal-cervical-brachial variant of Guillain-Barre syndrome
+16497,31,0.967741935483871,30,5,paraparetic variant of Guillain-Barre syndrome
+16498,1390,0.2647482014388489,368,107,acute pure sensory neuropathy
+16499,8176,0.3674168297455968,3004,298,autoimmune autonomic ganglionopathy
+16500,1390,0.2647482014388489,368,107,acute sensory ataxic neuropathy
+16540,6,1.0,6,1,congenital secondary polycythemia
+16541,6,1.0,6,1,acquired secondary polycythemia
+16542,63,1.0,63,6,IL10-related early-onset inflammatory bowel disease
+16586,620,0.646774193548387,401,58,systemic mastocytosis
+16598,506,0.9802371541501976,496,29,autosomal recessive secondary polycythemia not associated with VHL gene
+16663,338,0.6005917159763313,203,57,overlapping connective tissue disease
+16976,11685,0.9934103551561831,11608,3660,well-differentiated thymic neuroendocrine carcinoma
+16977,11685,0.9934103551561831,11608,3660,moderately-differentiated thymic neuroendocrine carcinoma
+16978,11685,0.9934103551561831,11608,3660,poorly differentiated thymic neuroendocrine carcinoma
+17025,15,1.0,15,5,Langerhans cell histiocytosis specific to childhood
+17227,8176,0.3674168297455968,3004,298,autoimmune pancreatitis type 1
+17228,8176,0.3674168297455968,3004,298,autoimmune pancreatitis type 2
+17243,672,0.2053571428571428,138,30,bullous diffuse cutaneous mastocytosis
+17244,536,0.003731343283582,2,27,pseudoxanthomatous diffuse cutaneous mastocytosis
+17278,8176,0.3674168297455968,3004,298,autoimmune polyendocrinopathy
+17346,126,1.0,126,31,Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly
+17347,113,1.0,113,22,plasmablastic lymphoma
+17363,274,0.9343065693430656,256,71,idiopathic chronic eosinophilic pneumonia
+17407,1997,0.9744616925388082,1946,164,deficiency in anterior pituitary function - variable immunodeficiency syndrome
+17411,63,1.0,63,6,neonatal inflammatory skin and bowel disease
+17570,1997,0.9744616925388082,1946,164,leukocyte adhesion deficiency
+17594,116,1.0,116,22,indolent B-cell non-Hodgkin lymphoma
+17595,116,1.0,116,22,aggressive B-cell non-Hodgkin lymphoma
+17596,1006,0.7693836978131213,774,108,diffuse large B-cell lymphoma of the central nervous system
+17597,113,1.0,113,22,T-cell/histiocyte rich large B cell lymphoma
+17599,3623,1.0,3623,1601,splenic diffuse red pulp small B-cell lymphoma
+17600,591,0.9796954314720812,579,129,hairy cell leukemia variant
+17601,363,1.0,363,84,diffuse large B-cell lymphoma with chronic inflammation
+17604,113,1.0,113,22,marginal zone lymphoma
+17617,1741,0.9844916714531878,1714,157,acquired adult-onset immunodeficiency
+17767,2296,0.0383275261324041,88,60,rheumatic fever
+17769,1741,0.9844916714531878,1714,157,acquired immunodeficiency
+17833,192,0.9791666666666666,188,25,primary hypereosinophilic syndrome
+17835,227,0.4845814977973568,110,44,lymphocytic hypereosinophilic syndrome
+17855,2758,0.6225525743292241,1717,193,T-B- severe combined immunodeficiency
+17858,1608,0.3619402985074627,582,165,acute erythroid leukemia
+17893,1608,0.3619402985074627,582,165,inherited acute myeloid leukemia
+17894,1608,0.3619402985074627,582,165,acute myeloid leukemia with CEBPA somatic mutations
+17909,1997,0.9744616925388082,1946,164,inherited glutathione synthetase deficiency
+17925,1749,0.9845626072041166,1722,164,T-cell immunodeficiency with epidermodysplasia verruciformis
+17979,8176,0.3674168297455968,3004,298,autoimmune lymphoproliferative syndrome
+17992,1333,0.0210052513128282,28,139,autoinflammatory syndrome with pyogenic bacterial infection and amylopectinosis
+18004,1608,0.3619402985074627,582,165,acute megakaryoblastic leukemia without down syndrome
+18039,1997,0.9744616925388082,1946,164,selective IgM deficiency
+18079,102,1.0,102,53,thymic epithelial neoplasm
+18088,2182,0.0091659028414298,20,55,familial Mediterranean fever
+18159,1997,0.9744616925388082,1946,164,atypical hemolytic-uremic syndrome with DGKE deficiency
+18223,649,0.662557781201849,430,76,systemic Epstein-Barr virus-positive T-cell lymphoproliferative disease of childhood
+18224,113,1.0,113,22,hydroa vacciniforme-like lymphoma
+18225,116,1.0,116,22,ALK-positive large B-cell lymphoma
+18242,8176,0.3674168297455968,3004,298,autoimmune hypoparathyroidism
+18256,1608,0.3619402985074627,582,165,acute myeloid leukemia with t(8;16)(p11;p13) translocation
+18305,245,1.0,245,62,chronic granulomatous disease
+18324,925,0.8810810810810811,815,20,adult-onset myasthenia gravis
+18325,1000,0.863,863,44,juvenile myasthenia gravis
+18326,925,0.8810810810810811,815,20,transient neonatal myasthenia gravis
+18356,8176,0.3674168297455968,3004,298,secondary neonatal autoimmune disease
+18357,20,1.0,20,1,neonatal antiphospholipid syndrome
+18358,8198,0.3691144181507684,3026,303,neonatal autoimmune hemolytic anemia
+18360,528,0.5871212121212122,310,51,neonatal lupus erythematosus
+18361,91,0.989010989010989,90,7,neonatal scleroderma
+18433,1608,0.3619402985074627,582,165,acute myeloid leukemia with t(6;9)(p23;q34)
+18434,1608,0.3619402985074627,582,165,acute myeloid leukemia with t(9;11)(p22;q23)
+18435,1608,0.3619402985074627,582,165,acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2)
+18436,1608,0.3619402985074627,582,165,megakaryoblastic acute myeloid leukemia with t(1;22)(p13;q13)
+18437,1608,0.3619402985074627,582,165,acute myeloid leukemia with NPM1 somatic mutations
+18439,10,0.0,0,0,eosinophilic colitis
+18465,8176,0.3674168297455968,3004,298,insulin autoimmune syndrome
+18487,3014,0.6466489714664897,1949,195,autosomal recessive severe congenital neutropenia due to CXCR2 deficiency
+18489,8409,0.3572362944464264,3004,310,autoimmune encephalopathy with parasomnia and obstructive sleep apnea
+18542,1017,0.0029498525073746,3,36,severe congenital neutropenia
+18597,182,1.0,182,35,plastic bronchitis
+18621,113,1.0,113,22,lymphoplasmacytic lymphoma without IgM production
+18628,17706,0.9925449000338868,17574,7521,HIV-associated cancer
+18636,9917,0.4757487143289301,4718,454,autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency syndrome
+18642,1997,0.9744616925388082,1946,164,NIK deficiency
+18645,192,0.9791666666666666,188,25,IgG4-related sclerosing cholangitis
+18671,746,1.0,746,5,IgG4-related kidney disease
+18674,24,1.0,24,11,IgG4-related submandibular gland disease
+18676,58,0.3275862068965517,19,3,eosinophilic angiocentric fibrosis
+18679,726,0.2589531680440771,188,51,primary cutaneous plasmacytosis
+18680,534,0.0,0,26,cutaneous pseudolymphoma
+18688,139,1.0,139,4,anti-p200 pemphigoid
+18689,591,0.9796954314720812,579,129,plasma cell leukemia
+18717,141,0.723404255319149,102,4,mixed cystic lymphatic malformation
+18735,233,0.0,0,12,multifocal lymphangioendotheliomatosis-thrombocytopenia syndrome
+18737,20,1.0,20,1,catastrophic antiphospholipid syndrome
+18746,139,1.0,139,4,mucous membrane pemphigoid
+18756,437,0.9954233409610984,435,9,euthyroid Graves orbitopathy
+18784,3599,0.8849680466796332,3185,298,pediatric multiple sclerosis
+18813,154,1.0,154,33,high grade B-cell lymphoma with MYC and/ or BCL2 and/or BCL6 rearrangement
+18814,1741,0.9844916714531878,1714,157,non-SCID combined immunodeficiency
+18827,528,0.5871212121212122,310,51,familial chilblain lupus
+18842,305,0.9868852459016394,301,47,primary effusion lymphoma
+18848,58,0.3275862068965517,19,3,IgG4-related retroperitoneal fibrosis
+18871,1608,0.3619402985074627,582,165,acute myelomonocytic leukemia M4
+18872,1608,0.3619402985074627,582,165,acute megakaryoblastic leukemia
+18874,1608,0.3619402985074627,582,165,acute myeloid leukemia
+18876,113,1.0,113,22,mantle cell lymphoma
+18896,139,1.0,139,5,thrombotic thrombocytopenic purpura
+18905,118,1.0,118,23,diffuse large B-cell lymphoma
+18906,113,1.0,113,22,follicular lymphoma
+18935,591,0.9796954314720812,579,129,hairy cell leukemia
+18967,1997,0.9744616925388082,1946,164,short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia
+18974,64,1.0,64,4,paraneoplastic pemphigus
+18992,385,0.825974025974026,318,13,IgG4-related thyroid disease
+19023,534,0.0,0,26,cutaneous mastocytosis
+19024,196,1.0,196,26,mast cell sarcoma
+19082,139,1.0,139,4,bullous pemphigoid
+19093,1997,0.9744616925388082,1946,164,immunodeficiency due to selective anti-polysaccharide antibody deficiency
+19098,8176,0.3674168297455968,3004,298,autoimmune thrombocytopenia
+19122,1353,0.2328159645232816,315,107,idiopathic acute eosinophilic pneumonia
+19167,16,0.875,14,3,immunoglobulin A vasculitis
+19175,192,0.9791666666666666,188,25,primary lymphedema
+19314,534,0.0,0,26,cutaneous mastocytoma
+19315,536,0.003731343283582,2,27,diffuse cutaneous mastocytosis
+19316,534,0.0,0,26,maculopapular cutaneous mastocytosis
+19322,64,1.0,64,4,pemphigus vegetans
+19323,592,0.6317567567567568,374,55,pemphigus erythematosus
+19324,64,1.0,64,4,pemphigus foliaceus
+19337,8312,0.3777670837343599,3140,301,autoimmune bullous skin disease
+19340,91,0.989010989010989,90,7,scleroderma
+19385,8909,0.3921876753844427,3494,336,steroid-responsive encephalopathy associated with autoimmune thyroiditis
+19391,285,0.5719298245614035,163,11,Fanconi anemia
+19436,1899,0.7777777777777778,1477,150,psoriasis-related juvenile idiopathic arthritis
+19451,654,0.981651376146789,642,135,chronic neutrophilic leukemia
+19452,30,1.0,30,2,"myeloproliferative neoplasm, unclassifiable"
+19455,1334,0.2353823088455772,314,100,acute panmyelosis with myelofibrosis
+19456,1608,0.3619402985074627,582,165,acute myeloid leukemia with multilineage dysplasia
+19457,1860,0.4435483870967742,825,195,therapy related acute myeloid leukemia and myelodysplastic syndrome
+19458,1608,0.3619402985074627,582,165,acute basophilic leukemia
+19460,1608,0.3619402985074627,582,165,acute leukemia of ambiguous lineage
+19461,591,0.9796954314720812,579,129,B-cell prolymphocytic leukemia
+19462,113,1.0,113,22,splenic marginal zone lymphoma
+19465,116,1.0,116,22,nodal marginal zone B-cell lymphoma
+19466,74,1.0,74,6,lymphomatoid granulomatosis
+19468,592,0.9797297297297296,580,130,T-cell prolymphocytic leukemia
+19469,592,0.9797297297297296,580,130,T-cell large granular lymphocyte leukemia
+19470,591,0.9796954314720812,579,129,aggressive NK-cell leukemia
+19471,73,1.0,73,11,adult T-cell leukemia/lymphoma
+19475,120,1.0,120,28,subcutaneous panniculitis-like T-cell lymphoma
+19480,196,1.0,196,26,Langerhans cell sarcoma
+19527,338,0.6005917159763313,203,57,undifferentiated connective tissue syndrome
+19532,8176,0.3674168297455968,3004,298,"autoimmune hemolytic anemia, warm type"
+19534,8198,0.3691144181507684,3026,303,mixed-type autoimmune hemolytic anemia
+19535,8233,0.3675452447467509,3026,303,drug-induced autoimmune hemolytic anemia
+19557,528,0.5871212121212122,310,51,chilblain lupus
+19558,528,0.5871212121212122,310,51,discoid lupus erythematosus
+19559,528,0.5871212121212122,310,51,hypertrophic or verrucous lupus erythematosus
+19560,528,0.5871212121212122,310,51,lupus erythematosus tumidus
+19561,528,0.5871212121212122,310,51,lupus erythematosus panniculitis
+19562,91,0.989010989010989,90,7,localized scleroderma
+19725,620,0.646774193548387,401,58,pediatric systemic lupus erythematosus
+19738,232,1.0,232,2,atypical hemolytic-uremic syndrome with H factor anomaly
+19740,139,1.0,139,5,acquired thrombotic thrombocytopenic purpura
+19787,8176,0.3674168297455968,3004,298,autoimmune enteropathy
+19835,192,0.9791666666666666,188,25,primary hypophysitis
+19964,203,1.0,203,51,thymic neuroendocrine tumor
+20076,83,1.0,83,42,myeloproliferative neoplasm
+20108,8198,0.3691144181507684,3026,303,autoimmune hemolytic anemia
+20115,6,1.0,6,1,secondary polycythemia
+20311,654,0.981651376146789,642,135,chronic myelomonocytic leukemia
+20316,1608,0.3619402985074627,582,165,acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)
+20317,1608,0.3619402985074627,582,165,acute myeloid leukemia with 11q23 abnormalities
+20320,1608,0.3619402985074627,582,165,acute myeloblastic leukemia with maturation
+20321,1608,0.3619402985074627,582,165,acute undifferentiated leukemia
+20322,1608,0.3619402985074627,582,165,acute biphenotypic leukemia
+20323,308,0.987012987012987,304,47,primary mediastinal large B-cell lymphoma
+20324,116,1.0,116,22,intravascular large B-cell lymphoma
+20331,620,0.646774193548387,401,58,indolent systemic mastocytosis
+20332,1120,0.7955357142857142,891,86,systemic mastocytosis with an associated clonal hematologic non-mast cell lineage disease
+20333,620,0.646774193548387,401,58,aggressive systemic mastocytosis
+20334,591,0.9796954314720812,579,129,mast cell leukemia
+20347,1387,0.2645998558038933,367,105,acute inflammatory demyelinating polyradiculoneuropathy
+20348,1390,0.2647482014388489,368,107,acute motor and sensory axonal neuropathy
+20349,1390,0.2647482014388489,368,107,acute motor axonal neuropathy
+20511,1608,0.3619402985074627,582,165,precursor B-cell acute lymphoblastic leukemia
+20516,11685,0.9934103551561831,11608,3660,thymic neuroendocrine carcinoma
+20517,74,1.0,74,6,eosinophilic granuloma
+20520,357,0.2128851540616246,76,16,adult pulmonary Langerhans cell histiocytosis
+20526,1608,0.3619402985074627,582,165,acute megakaryoblastic leukemia in down syndrome
+20535,30012,0.0009662801546048,29,645,house allergic alveolitis
+20546,1324,0.229607250755287,304,99,acute graft versus host disease
+20547,245,1.0,245,62,chronic graft versus host disease
+20640,9035,0.3327061427780852,3006,335,autoimmune encephalitis
+20655,257,0.6303501945525292,162,53,juvenile ankylosing spondylitis
+20686,1324,0.229607250755287,304,99,acute tonsillitis
+20703,83,1.0,83,42,erythroid neoplasm
+20740,1744,0.9845183486238532,1717,158,ectodermal dysplasia and immunodeficiency 1
+20743,1694,0.3943329397874852,668,167,mixed phenotype acute leukemia
+20849,1741,0.9844916714531878,1714,157,immunodeficiency 57
+21008,20,1.0,20,1,secondary antiphospholipid syndrome
+21094,1741,0.9844916714531878,1714,157,immunodeficiency disease
+21138,17706,0.9925449000338868,17574,7521,bone marrow cancer
+21176,25920,0.1301697530864197,3374,551,autoimmune hepatitis type 2
+21177,25920,0.1301697530864197,3374,551,autoimmune hepatitis type 3
+21202,30041,0.0010984987184181,33,648,allergic otitis media
+21207,20,0.5,10,2,Crohn jejunitis
+21250,121,1.0,121,50,tonsil neoplasm
+21337,11503,0.9933060940624184,11426,3627,tonsil carcinoma
+21367,1,1.0,1,1,"leukemia, myeloid, accelerated-phase"
+21443,779,0.82798459563543,645,172,benign neoplasm of lymph node
+21500,83,1.0,83,42,benign neoplasm of spleen
+21512,87,1.0,87,43,benign neoplasm of thymus
+21513,121,1.0,121,50,benign neoplasm of tonsil
+21726,55,0.2909090909090909,16,2,abdominal cystic lymphangioma
+21851,401,0.6733167082294265,270,23,alopecia universalis onychodystrophy vitiligo
+21950,8176,0.3674168297455968,3004,298,autoimmune oophoritis
+22205,306,0.8758169934640523,268,57,pustular psoriasis
+22518,8176,0.3674168297455968,3004,298,autoimmune inner ear disease
+22519,8292,0.3707187650747708,3074,301,autoimmune myocarditis
+22812,2394,0.9786967418546366,2343,292,complement receptor deficiency
+22901,40,0.75,30,10,Crohn disease of the esophagus
+22919,2394,0.9786967418546366,2343,292,cytokine receptor deficiency
+23119,10,1.0,10,1,familial myelofibrosis
+23249,1890,0.7767195767195767,1468,148,polyarticular juvenile rheumatoid arthritis
+23297,306,0.8758169934640523,268,57,guttate psoriasis
+23655,1741,0.9844916714531878,1714,157,"immunodeficiency 14b, autosomal recessive"
+24250,1324,0.229607250755287,304,99,acute lichenoid pityriasis
+24332,30012,0.0009662801546048,29,645,perennial allergic rhinitis
+24339,779,0.82798459563543,645,172,lymph node neoplasm
+24551,1997,0.9744616925388082,1946,164,X-linked lymphoproliferative disease due to SH2D1A deficiency
+24685,591,0.9796954314720812,579,129,Philadelphia-positive myelogenous leukemia
+24777,1741,0.9844916714531878,1714,157,"immunodeficiency 98 with autoinflammation, X-linked"
+24781,1741,0.9844916714531878,1714,157,immunodeficiency 102
+25513,8176,0.3674168297455968,3004,298,autoimmune urticaria
+25556,9051,0.0224284609435421,203,106,isocyanate induced asthma
+26767,1741,0.9844916714531878,1714,157,"immunodeficiency 74, COVID-19-related, X-linked"
+28226,1017,0.0029498525073746,3,36,autosomal recessive severe congenital neutropenia
+29134,3014,0.6466489714664897,1949,195,severe combined immunodeficiency due to CARMIL2 deficiency
+30013,1741,0.9844916714531878,1714,157,immunodeficiency 66
+30066,402,0.9975124378109452,401,9,"granulomatous disease, chronic, autosomal recessive, 5"
+30069,88,0.2272727272727272,20,21,"hyper-IgE recurrent infection syndrome 5, autosomal recessive"
+30266,1743,0.983362019506598,1714,158,immunodeficiency 80 with or without congenital cardiomyopathy
+30302,1741,0.9844916714531878,1714,157,immunodeficiency 81
+30308,2361,0.8958068614993647,2115,215,immunodeficiency 82 with systemic inflammation
+30314,73,0.863013698630137,63,6,"inflammatory bowel disease (infantile ulcerative colitis) 31, autosomal recessive"
+30333,1741,0.9844916714531878,1714,157,immunodeficiency 84
+30428,1741,0.9844916714531878,1714,157,immunodeficiency 85 and autoimmunity
+30448,1741,0.9844916714531878,1714,157,immunodeficiency 86
+30457,1741,0.9844916714531878,1714,157,immunodeficiency 87 and autoimmunity
+30483,1741,0.9844916714531878,1714,157,immunodeficiency 88
+30484,1741,0.9844916714531878,1714,157,immunodeficiency 89 and autoimmunity
+30491,1741,0.9844916714531878,1714,157,immunodeficiency 91 and hyperinflammation
+30498,1741,0.9844916714531878,1714,157,immunodeficiency 92
+30528,1743,0.983362019506598,1714,158,immunodeficiency 93 and hypertrophic cardiomyopathy
+30681,1741,0.9844916714531878,1714,157,immunodeficiency 94 with autoinflammation and dysmorphic facies
+30692,1741,0.9844916714531878,1714,157,immunodeficiency 95
+30693,1741,0.9844916714531878,1714,157,immunodeficiency 96
+30700,8176,0.3674168297455968,3004,298,autoimmune glomerulonephritis
+30701,8178,0.3673269748104671,3004,299,autoimmune cardiomyopathy
+30702,8206,0.3697294662442115,3034,299,autoimmune atherosclerosis
+30703,8176,0.3674168297455968,3004,298,autoimmune vasculitis
+30717,1741,0.9844916714531878,1714,157,immunodeficiency 97 with autoinflammation
+30726,1017,0.0029498525073746,3,36,"neutropenia, severe congenital, 9, autosomal dominant"
+30798,9917,0.4757487143289301,4718,454,immunodeficiency 99 with hypogammaglobulinemia and autoimmune cytopenias
+30813,1843,0.98534997287032,1816,179,immunodeficiency 101 (varicella zoster virus-specific)
+30858,1741,0.9844916714531878,1714,157,immunodeficiency 75
+30898,1741,0.9844916714531878,1714,157,immunodeficiency 76
+30970,5165,0.7806389157792837,4032,450,"immunodeficiency 106, susceptibility to viral infections"
+30971,1741,0.9844916714531878,1714,157,immunodeficiency 78 with autoimmunity and developmental delay
+30973,1741,0.9844916714531878,1714,157,immunodeficiency 77
+30981,1741,0.9844916714531878,1714,157,immunodeficiency 79
+31012,8176,0.3674168297455968,3004,298,autoimmune uveitis
+31013,8380,0.3824582338902147,3205,303,autoimmune optic neuritis
+31014,8176,0.3674168297455968,3004,298,autoimmune gastritis
+31030,1950,0.9512820512820512,1855,242,"immunodeficiency 107, susceptibility to invasive staphylococcus aureus infection"
+31520,2758,0.6225525743292241,1717,193,familial severe combined immunodeficiency
+32599,1741,0.9844916714531878,1714,157,immunodeficiency 15a
+32654,88,0.2272727272727272,20,21,"hyper-IgE recurrent infection syndrome 3, autosomal recessive"
+32723,1741,0.9844916714531878,1714,157,immunodeficiency 60
+32763,1741,0.9844916714531878,1714,157,immunodeficiency 62
+32782,1741,0.9844916714531878,1714,157,immunodeficiency 63 with lymphoproliferation and autoimmunity
+32796,88,0.2272727272727272,20,21,"hyper-IgE recurrent infection syndrome 4, autosomal recessive"
+32803,1741,0.9844916714531878,1714,157,immunodeficiency 64
+32848,5165,0.7806389157792837,4032,450,"immunodeficiency 65, susceptibility to viral infections"
+32899,1017,0.0029498525073746,3,36,"neutropenia, severe congenital, 8, autosomal dominant"
+33541,1741,0.9844916714531878,1714,157,immunodeficiency 69
+33542,1741,0.9844916714531878,1714,157,immunodeficiency 70
+33551,1741,0.9844916714531878,1714,157,immunodeficiency 72 with autoinflammation
+33554,1741,0.9844916714531878,1714,157,immunodeficiency 73b with defective neutrophil chemotaxis and lymphopenia
+33555,1741,0.9844916714531878,1714,157,immunodeficiency 73c with defective neutrophil chemotaxis and hypogammaglobulinemia
+33643,63,1.0,63,6,inflammatory bowel disease 30
+33682,2,0.0,0,0,skeletal dysplasia-T-cell immunodeficiency-developmental delay syndrome
+33683,235,0.0085106382978723,2,13,congenital progressive bone marrow failure-B-cell immunodeficiency-skeletal dysplasia syndrome
+33862,8368,0.381453154875717,3192,321,primary autoimmune enteropathy
+33925,437,0.9954233409610984,435,9,pediatric-onset Graves disease
+33968,8205,0.3666057282145034,3008,301,immune dysregulation-inflammatory bowel disease-arthritis-recurrent infections-lymphopenia syndrome
+33969,63,1.0,63,6,inflammatory bowel disease-recurrent sinopulmonary infections syndrome
+34054,3014,0.6466489714664897,1949,195,severe combined immunodeficiency due to CD70 deficiency
+34127,64,1.0,64,4,IgA pemphigus
+34189,26155,0.1378321544637736,3605,587,primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome
+35112,1608,0.3619402985074627,582,165,acute myeloid leukemia with BCR-ABL1
+35290,263,0.5361216730038023,141,6,atypical hemolytic uremic syndrome with complement gene abnormality
+35362,63,1.0,63,6,TRIM22-related inflammatory bowel disease
+35370,63,1.0,63,6,ALPI-related inflammatory bowel disease
+35400,25920,0.1301697530864197,3374,551,seronegative autoimmune hepatitis
+35444,1608,0.3619402985074627,582,165,acute mast cell leukemia
+35445,654,0.981651376146789,642,135,chronic mast cell leukemia
+35472,192,0.9791666666666666,188,25,GJC2-related late-onset primary lymphedema
+35473,2,1.0,2,1,warts-immunodeficiency-lymphedema-anogenital dysplasia syndrome
+35499,192,0.9791666666666666,188,25,CELSR1-related late-onset primary lymphedema
+35500,192,0.9791666666666666,188,25,congenital primary lymphedema of Gordon
+35639,1694,0.3943329397874852,668,167,mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2)
+35642,1694,0.3943329397874852,668,167,mixed phenotype acute leukemia with t(v;11q23.3)
+35694,1741,0.9844916714531878,1714,157,combined immunodeficiency due to RELA haploinsufficiency
+35838,9,1.0,9,2,idiopathic multicentric Castleman disease
+36696,83,1.0,83,42,spleen neoplasm
+36870,83,1.0,83,42,lymphatic vessel neoplasm
+41535,88,0.2272727272727272,20,21,mesenteric lymphadenitis due to Yersinia infection
+42490,1017,0.0029498525073746,3,36,"neutropenia, severe congenital, 1, autosomal dominant"
+42982,1997,0.9744616925388082,1946,164,GATA2 deficiency with susceptibility to MDS/AML
+43168,2,1.0,2,1,panostotic fibrous dysplasia
+43257,64,1.0,64,4,pemphigus and fogo selvagem
+43267,1345,0.8468401486988848,1139,117,rheumatoid vasculitis
+43294,91,0.989010989010989,90,7,linear scleroderma
+43364,1997,0.9744616925388082,1946,164,eosinophil peroxidase deficiency
+43377,75,0.64,48,24,juvenile spondyloarthropathy
+43768,139,1.0,139,5,thrombocytopenic purpura
+43985,889,0.7390326209223848,657,87,central nervous system lupus
+44014,372,0.8198924731182796,305,11,postpartum thyroiditis
+44113,756,0.7103174603174603,537,61,bullous systemic lupus erythematosus
+44200,2758,0.6225525743292241,1717,193,T-B+ severe combined immunodeficiency
+44201,2758,0.6225525743292241,1717,193,T+ B+ severe combined immunodeficiency
+44207,1997,0.9744616925388082,1946,164,specific granule deficiency 1
+44208,1997,0.9744616925388082,1946,164,specific granule deficiency 2
+44209,25,0.96,24,14,disorder of lectin complement activation pathway
+44338,9449,0.4515821780082548,4267,604,autoimmune primary ovarian failure
+44721,3014,0.6466489714664897,1949,195,severe combined immunodeficiency due to LAT deficiency
+44725,1997,0.9744616925388082,1946,164,combined immunodeficiency due to GINS1 deficiency
+44884,113,1.0,113,22,tonsillar lymphoma
+44887,1001,0.7682317682317682,769,107,central nervous system non-hodgkin lymphoma
+44889,154,1.0,154,33,high grade B-cell lymphoma
+44903,10,1.0,10,1,myelofibrosis
+44923,1608,0.3619402985074627,582,165,acute myeloid leukemia with mutated NPM1
+44986,955,0.7528795811518325,719,97,lymphoid system disorder
+45045,1741,0.9844916714531878,1714,157,selective IgG immunodeficiency
+54696,1741,0.9844916714531878,1714,157,immunodeficiency 53
+54697,2263,0.7697746354396818,1742,167,immunodeficiency 11b with atopic dermatitis
+54849,63,1.0,63,6,inflammatory bowel disease 29
+54862,1130,0.952212389380531,1076,304,premature ovarian failure 15
+100002,30012,0.0009662801546048,29,645,food protein-induced allergic proctocolitis
+100014,8176,0.3674168297455968,3004,298,autoimmune retinopathy
+100051,9,1.0,9,2,idiopathic mast cell activation syndrome
+100054,9,1.0,9,2,idiopathic anaphylaxis
+100162,1744,0.9845183486238532,1717,158,IKBKG-related immunodeficiency with or without ectodermal dysplasia
+100169,245,1.0,245,62,"polyneuropathy, inflammatory demyelinating, chronic"
+100185,8268,0.3714320270924044,3071,302,immune reconstitution inflammatory syndrome
+100211,8205,0.3666057282145034,3008,301,"growth hormone insensitivity with immune dysregulation 1, autosomal recessive"
+100291,1608,0.3619402985074627,582,165,early T cell progenitor acute lymphoblastic leukemia
+100373,1413,0.2781316348195329,393,120,"acute myeloid leukemia, inv(16)(p13.1;q22)"
+100374,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(16;16)(p13.1;q22)"
+100375,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(15;17)(q24;q21)"
+100376,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(9;11)(p21.3;q23.3)"
+100377,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(10;11)(p12;q23)"
+100378,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(10;11)(p11.2;q23)"
+100379,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(1;11)(q21;q23)"
+100380,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(4;11)(q21;q23)"
+100381,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(6;11)(q27;q23)"
+100382,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(6;9)(p23;q34.1)"
+100383,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(11;19)(q23;p13)"
+100384,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(11;19)(q23;p13.1)"
+100385,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(11;19)(q23.3;p13.3)"
+100386,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(v;11q23.3)"
+100387,1413,0.2781316348195329,393,120,"acute myeloid leukemia, Monosomy 7"
+100388,1413,0.2781316348195329,393,120,"acute myeloid leukemia, Monosomy 5"
+100389,1413,0.2781316348195329,393,120,"acute myeloid leukemia, Trisomy 8"
+100390,1413,0.2781316348195329,393,120,"acute myeloid leukemia, der12p"
+100391,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(2;12)"
+100392,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(11;17)"
+100393,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(8;16)"
+100394,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(1;22)"
+100395,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(5;11)(q35;p15)"
+100396,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(7;12)(q36;p13)"
+100397,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(9;22)(q34.1;q11.2)"
+100398,1413,0.2781316348195329,393,120,"acute myeloid leukemia, inv(3)(q21.3;q26.2)"
+100399,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(3;3)(q21.3;q26.2)"
+100400,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(3;12)(q23;p12.3)"
+100401,1413,0.2781316348195329,393,120,"acute myeloid leukemia, del(5q31-q32)"
+100402,1413,0.2781316348195329,393,120,"acute myeloid leukemia, del(13q14-q21)"
+100403,1413,0.2781316348195329,393,120,"acute myeloid leukemia, loss of chromosome 17p"
+100404,1413,0.2781316348195329,393,120,"acute myeloid leukemia, MLL gene rearrangement"
+100405,1567,0.3490746649649011,547,191,"acute myeloid leukemia, Non-KMT2A MLLT10 rearrangement positive"
+100406,1413,0.2781316348195329,393,120,"acute myeloid leukemia, inv(16)(p13.3;q24.3)"
+100407,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(11;15)(p15;q35)"
+100408,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(16;21)(q24;q22)"
+100409,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(3;5)(q25;q34)"
+100410,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(16;21)(p11;q22)"
+100412,1413,0.2781316348195329,393,120,"acute myeloid leukemia, monoallelic CEBPA gene mutation"
+100413,1413,0.2781316348195329,393,120,"acute myeloid leukemia, biallelic CEBPA gene mutation"
+100414,1413,0.2781316348195329,393,120,"acute myeloid leukemia, CEBPA gene mutation"
+100415,1413,0.2781316348195329,393,120,"acute myeloid leukemia, FLT3 internal tandem duplication"
+100416,1413,0.2781316348195329,393,120,"acute myeloid leukemia, FLT3 tyrosine kinase domain point mutation"
+100417,1413,0.2781316348195329,393,120,"acute myeloid leukemia, WT1 gene mutation"
+100418,1413,0.2781316348195329,393,120,"acute myeloid leukemia, KIT exon 17 mutation"
+100419,1413,0.2781316348195329,393,120,"acute myeloid leukemia, KIT exon 8 mutation"
+100420,1413,0.2781316348195329,393,120,"acute myeloid leukemia, KIT gene mutation"
+100421,1413,0.2781316348195329,393,120,"acute myeloid leukemia, GATA1 gene mutation"
+100422,1413,0.2781316348195329,393,120,"acute myeloid leukemia, RUNX1 gene mutation"
+100423,1413,0.2781316348195329,393,120,"acute myeloid leukemia, PTPN11 gene mutation"
+100424,1413,0.2781316348195329,393,120,"acute myeloid leukemia, NRAS gene mutation"
+100425,1413,0.2781316348195329,393,120,"acute myeloid leukemia, KRAS gene mutation"
+100464,1997,0.9744616925388082,1946,164,acid sphingomyelinase deficiency
+100491,306,0.8758169934640523,268,57,generalized pustular psoriasis
+600005,17382,0.0010930848003681,19,269,venom allergy
+600030,1608,0.3619402985074627,582,165,B-cell acute lymphoblastic leukemia with t(1;19)(q23;p13.3); E2A-PBX1 (TCF3-PBX1)
+700226,17382,0.0010930848003681,19,269,food allergy
+700289,1741,0.9844916714531878,1714,157,combined immunodeficiency syndrome
+700306,1741,0.9844916714531878,1714,157,FASLG-related immunodeficiency
+700308,1741,0.9844916714531878,1714,157,TNFRSF9-related immunodeficiency
+700327,8205,0.3666057282145034,3008,301,IRF4-related immune disorder
+700330,8408,0.3818981921979067,3211,352,PTEN harmartoma tumor syndrome with immune disorder
+800104,1741,0.9844916714531878,1714,157,immunodeficiency 105
+800128,1997,0.9744616925388082,1946,164,combined immunodeficiency due to POLE2 deficiency
+800131,88,0.2272727272727272,20,21,"hyper-IgE recurrent infection syndrome 4A, autosomal dominant"
+800134,2189,0.9748743718592964,2134,188,primary immunodeficiency due to calcium channel deficiency
+800136,1997,0.9744616925388082,1946,164,non-severe combined immunodeficiency due to COPG1 deficiency
+800138,8176,0.3674168297455968,3004,298,multisystem autoimmune disease due to IKAROS gain of function
+800139,1997,0.9744616925388082,1946,164,HELIOS deficiency
+800140,1997,0.9744616925388082,1946,164,ITPKB deficiency
+800141,1997,0.9744616925388082,1946,164,MAN2B2 deficiency
+800142,585,0.7658119658119659,448,120,chronic mucocutaneous candidiasis and connective tissue disease due to JNK1 haploinsufficiency
+800144,10463,0.4739558444040906,4959,471,autoimmune pulmonary disease due to PD-1 deficiency
+800145,1997,0.9744616925388082,1946,164,non-severe combined immunodeficiency due to polymerase delta deficiency
+800146,1997,0.9744616925388082,1946,164,"agammaglobulinemia, autosomal recessive, due to BOB1 deficiency"
+800147,1997,0.9744616925388082,1946,164,hemophagocytic lymphohistiocytosis due to RhoG deficiency
+800149,1997,0.9744616925388082,1946,164,"immunodeficiency, common variable, due to APRIL deficiency"
+800305,229,1.0,229,47,myelofibrosis with myeloid metaplasia
+850058,2242,0.9772524531668152,2191,226,chronic neurovisceral acid sphingomyelinase deficiency
+850067,10202,0.4855910605763576,4954,464,immune deficiency due to impaired neutrophil phagocytosis and migration
+850097,9035,0.3327061427780852,3006,335,autoimmune limbic encephalitis
+850102,9035,0.3327061427780852,3006,335,non-specific autoimmune supratentorial encephalitis with characteristic antibodies
+850103,9035,0.3327061427780852,3006,335,non-specific autoimmune supratentorial encephalitis without characteristic antibodies
+850105,9035,0.3327061427780852,3006,335,non-specific autoimmune brainstem encephalitis with characteristic antibodies
+850106,9035,0.3327061427780852,3006,335,non-specific autoimmune brainstem encephalitis without characteristic antibodies
+850108,8176,0.3674168297455968,3004,298,non-specific autoimmune cerebellar ataxia with characteristic antibodies
+850109,8176,0.3674168297455968,3004,298,non-specific autoimmune cerebellar ataxia without characteristic antibodies
+850151,12199,0.9827035002869088,11988,3736,lymph node carcinoma
+850199,1997,0.9744616925388082,1946,164,NK cell deficiency
+850200,1741,0.9844916714531878,1714,157,T cell and NK cell immunodeficiency
+850225,8368,0.381453154875717,3192,321,autoimmune cholangitis
+850267,1623,0.3678373382624769,597,169,childhood acute megakaryoblastic leukemia
+850269,1840,0.4423913043478261,814,167,core binding factor acute myeloid leukemia
+850271,1091,0.9798350137488544,1069,154,myeloid leukemia associated with down syndrome
+850301,139,1.0,139,4,pemphigoid
+850306,14000,0.4740714285714286,6637,724,latent autoimmune diabetes in adults
+850416,8176,0.3674168297455968,3004,298,autoimmune epilepsy
+850418,118,1.0,118,23,diffuse large B-cell lymphoma activated B-cell type
+850419,118,1.0,118,23,diffuse large B-cell lymphoma germinal center B-cell type
+850426,116,1.0,116,22,high-grade B-cell lymphoma double-hit/triple-hit
+850449,1694,0.3943329397874852,668,167,mixed phenotype acute leukemia with BCR-ABL1
+850450,1694,0.3943329397874852,668,167,mixed phenotype acute leukemia with MLL rearranged
+850451,1411,0.2771084337349397,391,102,"mixed phenotype acute leukemia, B/myeloid"
+850452,1410,0.2765957446808511,390,101,"mixed phenotype acute leukemia,T/myeloid"
+850468,118,1.0,118,23,BN2 diffuse large B-cell lymphoma
+850469,118,1.0,118,23,EZB diffuse large B-cell lymphoma
+850470,118,1.0,118,23,MCD diffuse large B-cell lymphoma
+850471,118,1.0,118,23,N1 diffuse large B-cell lymphoma
+850472,118,1.0,118,23,ST2 diffuse large B-cell lymphoma
+850473,118,1.0,118,23,A53 diffuse large B-cell lymphoma
+850492,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(8;21)(q22; q22.1)"
+850495,1413,0.2781316348195329,393,120,"acute myeloid leukemia, t(1;22)(p13;q13)"
+850812,1997,0.9744616925388082,1946,164,dendritic cell deficiency
+859083,620,0.646774193548387,401,58,systemic lupus erythematosus 17
+859526,1741,0.9844916714531878,1714,157,immunodeficiency 109 with lymphoproliferation
+859747,112,1.0,112,17,grade I lymphomatoid granulomatosis
+859748,112,1.0,112,17,grade II lymphomatoid granulomatosis
+859749,112,1.0,112,17,grade III lymphomatoid granulomatosis
+956987,118,1.0,118,23,EZB-MYC+ diffuse large B-cell lymphoma
+956988,118,1.0,118,23,EZB-MYC- diffuse large B-cell lymphoma
+957229,1741,0.9844916714531878,1714,157,hatipoglu immunodeficiency syndrome
+957388,8578,0.3969456749825134,3405,299,"autoimmune disease, multisystem, infantile-onset, 3"
+957535,1741,0.9844916714531878,1714,157,immunodeficiency 112
+957809,1017,0.0029498525073746,3,36,"neutropenia, severe congenital, 10, autosomal recessive"
+957920,1741,0.9844916714531878,1714,157,immunodeficiency 113 with autoimmunity and autoinflammation
+957955,1741,0.9844916714531878,1714,157,"immunodeficiency 114, folate-responsive"
+957981,1741,0.9844916714531878,1714,157,immunodeficiency 115 with autoinflammation
+958011,1741,0.9844916714531878,1714,157,immunodeficiency 117
+958017,1017,0.0029498525073746,3,36,"neutropenia, severe congenital, 11, autosomal dominant"
+958030,1741,0.9844916714531878,1714,157,immunodeficiency 118
+958115,1997,0.9744616925388082,1946,164,autosomal recessive combined immunodeficiency due to complete IL6ST deficiency
+958116,1997,0.9744616925388082,1946,164,autosomal recessive combined immunodeficiency due to partial IL6ST deficiency
+958117,1997,0.9744616925388082,1946,164,autosomal dominant combined immunodeficiency due to partial IL6ST deficiency
+958118,1997,0.9744616925388082,1946,164,autosomal recessive combined immunodeficiency due to IL6R deficiency
+958120,1997,0.9744616925388082,1946,164,autosomal dominant combined immunodeficiency due to ERBIN deficiency
+958161,1608,0.3619402985074627,582,165,B acute lymphoblastic leukemia with PAX5 P80R mutation
+958162,1608,0.3619402985074627,582,165,B acute lymphoblastic leukemia with DUX4 rearrangement
+958177,478,0.5125523012552301,245,74,chronic recurrent multifocal osteomyelitis 3
+958182,1997,0.9744616925388082,1946,164,C1Q deficiency 1
+958187,1997,0.9744616925388082,1946,164,C1Q deficiency 2
+958188,1997,0.9744616925388082,1946,164,C1Q deficiency 3
+968974,116,1.0,116,22,large B-cell lymphoma
+970993,1741,0.9844916714531878,1714,157,immunodeficiency 119
+970994,1741,0.9844916714531878,1714,157,immunodeficiency 120
+971001,1741,0.9844916714531878,1714,157,immunodeficiency 121 with autoinflammation
+971005,1997,0.9744616925388082,1946,164,MHC class II deficiency 1
+971006,1997,0.9744616925388082,1946,164,MHC class I deficiency 1
+971011,1997,0.9744616925388082,1946,164,MHC class I deficiency 2
+971012,1997,0.9744616925388082,1946,164,MHC class I deficiency 3
+971013,1997,0.9744616925388082,1946,164,MHC class II deficiency 2
+971014,1997,0.9744616925388082,1946,164,MHC class II deficiency 3
+971015,1997,0.9744616925388082,1946,164,MHC class II deficiency 4
+971016,1997,0.9744616925388082,1946,164,MHC class II deficiency 5
+971091,1673,0.3867304243873281,647,168,acute megakaryoblastic leukemia in adult
+971151,1741,0.9844916714531878,1714,157,immunodeficiency 122
+971177,1741,0.9844916714531878,1714,157,immunodeficiency 123 with HPV-related verrucosis
+975749,1741,0.9844916714531878,1714,157,immunodeficiency 125
+975761,1741,0.9844916714531878,1714,157,"immunodeficiency 126, susceptibility to"
+975832,1741,0.9844916714531878,1714,157,immunodeficiency 127
+975834,1741,0.9844916714531878,1714,157,immunodeficiency 128
+975847,52527,0.0572277114626763,3006,6146,autoimmune disease with susceptibility to mycobacterium tuberculosis
+975862,591,0.9796954314720812,579,129,B-lymphoblastic leukemia with MEF2D rearrangement
+975863,591,0.9796954314720812,579,129,B-lymphoblastic leukemia with MYC rearrangement
+975864,591,0.9796954314720812,579,129,B-lymphoblastic leukemia with NUTM1 rearrangement
+975865,591,0.9796954314720812,579,129,B-lymphoblastic leukemia with PAX5alt
+975866,591,0.9796954314720812,579,129,B-lymphoblastic leukemia with TCF3-HLF fusion
+975867,591,0.9796954314720812,579,129,B-lymphoblastic leukemia with ZNF384 rearrangement
+975868,1608,0.3619402985074627,582,165,acute myeloid leukemia with CBFA2T3-GLIS2 fusion
+975870,1608,0.3619402985074627,582,165,acute myeloid leukemia with FUS-ERG fusion
+975871,1608,0.3619402985074627,582,165,acute myeloid leukemia with MNX1-ETV6 fusion
+975872,1608,0.3619402985074627,582,165,acute myeloid leukemia with NPM1-MLF1 fusion
+975891,1997,0.9744616925388082,1946,164,combined immunodeficiency due to TBX1 deficiency
+975907,290,0.0310344827586206,9,11,pulmonary langerhans cell histiocytosis
+975908,233,0.0,0,12,single-system multifocal langerhans cell histiocytosis
+975911,2758,0.6225525743292241,1717,193,reticular dysgenesis-like severe combined immunodeficiency
+976228,1741,0.9844916714531878,1714,157,immunodeficiency 132b
+976229,1741,0.9844916714531878,1714,157,immunodeficiency 131
+979233,1741,0.9844916714531878,1714,157,immunodysregulation with variable immunodeficiency and autoimmunity
+979235,8578,0.3969456749825134,3405,299,"autoimmune disease, multisystem, infantile-onset, 5"
+979570,1812,0.9834437086092715,1782,166,immunodeficiency 133 with ectodermal dysplasia with or without peripheral neuropathy
+1010122,238,1.0,238,8,trichrome vitiligo
+1010125,238,1.0,238,8,generalized vitiligo
+1010173,1741,0.9844916714531878,1714,157,IRF4-related combined immunodeficiency
+1010174,1741,0.9844916714531878,1714,157,NFATC1-related combined immunodeficiency
+1010175,1741,0.9844916714531878,1714,157,POLD2-related combined immunodeficiency
+1010176,1741,0.9844916714531878,1714,157,POLD3-related combined immunodeficiency
+1010177,1741,0.9844916714531878,1714,157,IKZF2-related combined immunodeficiency
+1060166,25942,0.1309074088350936,3396,555,giant cell hepatitis with autoimmune hemolytic anemia
+1060174,736,0.6902173913043478,508,63,systemic lupus erythematosus related to C1QA
+1060176,736,0.6902173913043478,508,63,systemic lupus erythematosus related to C1S
+1060185,620,0.646774193548387,401,58,systemic lupus erythematosus 18
+8000010,20,1.0,20,1,antiphospholipid syndrome
+8000014,20,1.0,20,1,familial antiphospholipid syndrome
+8000023,8176,0.3674168297455968,3004,298,type 3 autoimmune lymphoproliferative syndrome
+8000024,8176,0.3674168297455968,3004,298,"autoimmune lymphoproliferative syndrome, type III caused by mutation in PRKCD"
