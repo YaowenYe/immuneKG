@@ -27,7 +27,7 @@ Existing biomedical knowledge graphs treat the immune system as a black box — 
 
 ---
 
-<img width="1552" height="981" alt="image" src="https://github.com/user-attachments/assets/154716ed-4292-42f5-b9da-ace8408eed8f" />
+<img width="1659" height="1018" alt="image" src="https://github.com/user-attachments/assets/749b0e4b-72be-4618-9227-f208fb5b1b48" />
 
 ---
 
