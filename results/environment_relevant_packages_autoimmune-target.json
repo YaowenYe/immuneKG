@@ -1,0 +1,65 @@
+{
+  "environment": "autoimmune-target",
+  "packages": [
+    {
+      "package": "numpy",
+      "version": "1.26.4",
+      "status": "installed",
+      "purpose": "数值计算"
+    },
+    {
+      "package": "pandas",
+      "version": "2.3.3",
+      "status": "installed",
+      "purpose": "表格数据处理与CSV读写"
+    },
+    {
+      "package": "torch",
+      "version": "2.5.1+cu121",
+      "status": "installed",
+      "purpose": "深度学习训练与推理"
+    },
+    {
+      "package": "torch-geometric",
+      "version": "2.7.0",
+      "status": "installed",
+      "purpose": "异构图/图神经网络模块"
+    },
+    {
+      "package": "pykeen",
+      "version": "1.11.1",
+      "status": "installed",
+      "purpose": "知识图谱嵌入训练与评估"
+    },
+    {
+      "package": "scikit-learn",
+      "version": "1.7.2",
+      "status": "installed",
+      "purpose": "特征归一化/标准化"
+    },
+    {
+      "package": "PyYAML",
+      "version": "6.0.3",
+      "status": "installed",
+      "purpose": "YAML配置读取"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.67.1",
+      "status": "installed",
+      "purpose": "训练进度条"
+    },
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "status": "installed",
+      "purpose": "命令行彩色输出"
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.10.8",
+      "status": "installed",
+      "purpose": "GSEA可视化脚本"
+    }
+  ]
+}

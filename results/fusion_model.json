@@ -1,0 +1,14 @@
+{
+  "embedding_dim": 128,
+  "feature_dim": 89,
+  "fusion_strategy": "multi_source_trigate",
+  "model_class": "MultiSourceFusionNetwork",
+  "use_batch_norm": true,
+  "hidden_dims": [
+    256,
+    128
+  ],
+  "dropout": 0.3,
+  "best_val_loss": 0.12187738716602325,
+  "best_epoch": 80
+}

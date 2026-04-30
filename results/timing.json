@@ -1,0 +1,34 @@
+{
+  "stage_data_loading": {
+    "seconds": 0.65,
+    "formatted": "0.65秒"
+  },
+  "stage_triples_features": {
+    "seconds": 0.2,
+    "formatted": "0.20秒"
+  },
+  "stage_kg_training": {
+    "seconds": 3721.14,
+    "formatted": "1小时2分钟"
+  },
+  "stage_graph_building": {
+    "seconds": 34.85,
+    "formatted": "34.85秒"
+  },
+  "stage_gnn_training": {
+    "seconds": 2972.99,
+    "formatted": "49.55分钟"
+  },
+  "stage_fusion_training": {
+    "seconds": 3.98,
+    "formatted": "3.98秒"
+  },
+  "stage_scoring": {
+    "seconds": 94.64,
+    "formatted": "1.58分钟"
+  },
+  "total": {
+    "seconds": 6828.46,
+    "formatted": "1小时53分钟"
+  }
+}
