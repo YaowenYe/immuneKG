@@ -24,6 +24,9 @@
 Existing biomedical knowledge graphs treat the immune system as a black box — they capture disease, gene, and drug nodes, but collapse the rich diversity of immune cell biology into nothing. Yet in immune-mediated inflammatory diseases (IMIDs), **which cell type mediates pathology matters enormously**: a drug that depletes Th17 cells has a fundamentally different therapeutic profile from one that expands Tregs, even if both downstream targets appear identical in a flat graph.
 
 **immuneKG** resolves this gap by explicitly modelling immune cell subtypes as first-class graph entities and introducing four curated relation types that wire them into the broader KG. These new nodes and edges serve two complementary roles: they enrich the **graph topology** that the GNN traverses during target scoring, and they provide an **interpretability layer** — allowing post-hoc analysis of which immune cell subtypes are structurally proximal to high-ranking candidates in the embedding space.
+
+---
+
 <img width="1552" height="981" alt="image" src="https://github.com/user-attachments/assets/154716ed-4292-42f5-b9da-ace8408eed8f" />
 
 ---
