@@ -445,7 +445,9 @@ prediction:
 ## 📄 Citation
 
 If you use immuneKG in your research, please cite the associated manuscript.
+
 immuneKG: An Immune-Cell-Aware Knowledge Graph Framework for Target Discovery in Immune-Mediated Diseases
+
 bioRxiv 2026.04.30.721823; doi: https://doi.org/10.64898/2026.04.30.721823
 
 ---
