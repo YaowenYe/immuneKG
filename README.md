@@ -16,7 +16,7 @@
 </div>
 
 ---
-![2](image-1.png)
+![2](image_1.png)
 
 
 ## Why immuneKG?
