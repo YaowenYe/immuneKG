@@ -161,8 +161,6 @@ python train.py
 
 Results appear in `results/`.
 
----
-
 
 ---
 
