@@ -142,18 +142,15 @@ pip install torch-geometric
 # https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
 ```
 
-### 2 · Place data
+### 2 · Place feature data
 
 ```
-data/
-├── train.tsv                    # KG triples  head<TAB>relation<TAB>tail
-├── valid.tsv
-├── test.tsv
-├── gwas_genetic_features.csv    # Disease features (MONDO-keyed)
-├── hpo_organ_features.csv
-├── hpo_phenotype_stats.csv
-├── iedb_onehot_features.csv
-└── iedb_statistical_features.csv
+data/gwas_genetic_features.csv 
+data/hpo_organ_features.csv
+data/hpo_phenotype_stats.csv
+data/iedb_onehot_features.csv
+data/iedb_statistical_features.csv
+
 ```
 
 ### 3 · Train
@@ -166,34 +163,6 @@ Results appear in `results/`.
 
 ---
 
-## 🗂 Project Structure
-
-```
-immuneKG/
-├── train.py                   # 7-stage training pipeline
-├── predict.py                 # Prediction — 3 modes
-├── benchmark_models.py        # Multi-model KG benchmark
-├── requirements.txt
-├── configs/
-│   └── default.yaml
-├── data/
-├── src/
-│   ├── data_loader.py         # KG loading & preprocessing
-│   ├── feature_encoder.py     # Five-dimensional feature encoder
-│   ├── model.py               # FFN / MultiSourceFFN
-│   ├── trainer.py             # ComplEx + fusion training
-│   ├── graph_builder.py       # PyG graph construction
-│   ├── gnn_module.py          # HeteroPNA-Attn GNN
-│   ├── scorer.py              # Scoring & ranking
-│   ├── novelty.py             # Novelty penalty + AP metric
-│   └── utils.py               # Config, logging, timer
-└── results/
-    ├── targets_*_top50.csv
-    ├── targets_*_full.csv
-    ├── model_benchmark_*.csv
-    ├── fusion_model.pth
-    └── training_log.json
-```
 
 ---
 
