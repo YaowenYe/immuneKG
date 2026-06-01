@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>immunekg.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<div align="center">
+<img src="https://img.shields.io/badge/immuneKG-Immune%20Disease%20Target%20Discovery-6C3FD1?style=for-the-badge&logo=molecule&logoColor=white" alt="immuneKG"/>
+<h1 id="immunekg">immuneKG</h1>
+<p><strong>Knowledge Graph Framework for Immune Disease Target Discovery</strong></p>
+<p><a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"></a>
+<a href="https://pytorch.org"><img src="https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch"></a>
+<a href="https://pykeen.readthedocs.io"><img src="https://img.shields.io/badge/PyKEEN-1.10+-4CAF50?style=flat-square" alt="PyKEEN"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"></a></p>
+<p><em>Targeting the immune landscape — from knowledge graph to clinical candidate</em></p>
+</div>
+<hr>
+<p><img src="image_1.png" alt="2"></p>
+<h2 id="why-immunekg">Why immuneKG?</h2>
+<p>Existing biomedical knowledge graphs treat the immune system as a black box — they capture disease, gene, and drug nodes, but collapse the rich diversity of immune cell biology into nothing. Yet in immune-mediated inflammatory diseases (IMIDs), <strong>which cell type mediates pathology matters enormously</strong>: a drug that depletes Th17 cells has a fundamentally different therapeutic profile from one that expands Tregs, even if both downstream targets appear identical in a flat graph.</p>
+<p><strong>immuneKG</strong> resolves this gap by explicitly modelling immune cell subtypes as first-class graph entities and introducing four curated relation types that wire them into the broader KG. These new nodes and edges serve two complementary roles: they enrich the <strong>graph topology</strong> that the GNN traverses during target scoring, and they provide an <strong>interpretability layer</strong> — allowing post-hoc analysis of which immune cell subtypes are structurally proximal to high-ranking candidates in the embedding space.</p>
+<hr>
+<p><img src="fig1.png" alt="3"></p>
+<hr>
+<h2 id="-core-innovations">✨ Core Innovations</h2>
+<h3 id="〇-novel-entity-type-immune_cell">〇 Novel entity type: <code>immune_cell</code></h3>
+<p>Most KG frameworks model three node types. immuneKG adds a fourth:</p>
+<blockquote>
+<p><strong>disease · gene/protein · drug · <code>immune_cell</code></strong> ← <em>new</em></p>
+</blockquote>
+<p>28 immune cell subtypes — individually curated and validated — are embedded as distinct graph nodes, capturing the full innate-to-adaptive axis that governs autoimmune pathology.</p>
+<table>
+<thead>
+<tr>
+<th align="center">🛡️ Innate Immunity</th>
+<th align="center">🎯 Adaptive Immunity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<table>
+<thead>
+<tr>
+<th>Lineage</th>
+<th>Cell Subtypes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Granulocytes</td>
+<td>Basophil · Eosinophil · Neutrophil · Mast cell</td>
+</tr>
+<tr>
+<td>Innate lymphoid</td>
+<td>NK cell · ILC1 · ILC2 · ILC3</td>
+</tr>
+<tr>
+<td>Monocytes</td>
+<td>Classical Monocyte · Non-classical Monocyte</td>
+</tr>
+<tr>
+<td>Macrophages</td>
+<td>M1 Macrophage · M2 Macrophage</td>
+</tr>
+<tr>
+<td>Dendritic cells</td>
+<td>cDC1 · cDC2 · pDC</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+<table>
+<thead>
+<tr>
+<th>Lineage</th>
+<th>Cell Subtypes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CD4 T helper</td>
+<td>Naive CD4 T cell · Th1 · Th2 · Th17 · Tfh · Treg</td>
+</tr>
+<tr>
+<td>CD8 T cells</td>
+<td>CD8 Effector T cell · Exhausted T cell</td>
+</tr>
+<tr>
+<td>γδ T cells</td>
+<td>gamma delta T cell</td>
+</tr>
+<tr>
+<td>Innate-like T</td>
+<td>MAIT cell · NKT cell</td>
+</tr>
+<tr>
+<td>B cells</td>
+<td>Plasmablast · Regulatory B cell</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-novel-immune_cell-relations">① Novel immune_cell relations</h3>
+<p>Four original relation types absent from all existing KG schemas wire immune cell nodes into the broader graph:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Code</th>
+<th>Full Relation Name</th>
+<th>Direction</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong><code>IcE</code></strong></td>
+<td><code>immunecell_expresses_marker_gene</code></td>
+<td><code>immune_cell</code> → <code>gene/protein</code></td>
+<td>CellMarker 2.0</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong><code>IcIm</code></strong></td>
+<td><code>immunecell_implicated_in_disease</code></td>
+<td><code>immune_cell</code> → <code>disease</code></td>
+<td>Manual curation</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong><code>IcDv</code></strong></td>
+<td><code>gene_drives_immunecell_differentiation</code></td>
+<td><code>gene/protein</code> → <code>immune_cell</code></td>
+<td>DICE eQTL</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong><code>DrIc</code></strong></td>
+<td><code>drug_modulates_immunecell</code></td>
+<td><code>drug</code> → <code>immune_cell</code></td>
+<td>Manual curation</td>
+</tr>
+</tbody>
+</table>
+<p>These relations serve two purposes in immuneKG:</p>
+<p><strong>Graph topology enrichment.</strong> The <code>IcE</code> and <code>IcDv</code> edges (≥2,900 and ≥6,100 triples respectively) create dense bridges between immune cell nodes and the gene/protein layer. The HeteroPNA-Attn GNN propagates information across these edges during training, allowing disease–gene–drug scoring to be implicitly conditioned on immune cell context.</p>
+<p><strong>Interpretability.</strong> After target scoring, embedding-space proximity between high-ranking candidates and specific immune cell nodes can be examined via the <code>similarity</code> mode, revealing which immune cell subtypes are structurally linked to top-ranked targets — without requiring the immune cell relations to perform reliably as standalone link predictors.</p>
+<blockquote>
+<p><strong>Note on link prediction with immune_cell relations.</strong> The <code>IcIm</code> (7 training triples) and <code>DrIc</code> (22 training triples) relations have insufficient training density to support meaningful link prediction. <code>IcE</code> and <code>IcDv</code> have adequate triple counts but the <code>IcDv</code> training signal is dominated by population-level cis-eQTLs from DICE, which reflect genetic co-regulation rather than causal differentiation drivers. For these reasons, link prediction queries using the four immune_cell relations are <strong>not recommended</strong> as a primary use case of immuneKG in its current form. The relations contribute to the KG's structural richness and are reserved for interpretability analysis.</p>
+</blockquote>
+<h3 id="-original-golden-features">② Original golden features</h3>
+<p>Each disease node is augmented with five external feature dimensions fused into the KG embedding space:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">#</th>
+<th>Dimension</th>
+<th>Source file</th>
+<th>Signal captured</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td>GWAS genetic</td>
+<td><code>gwas_genetic_features.csv</code></td>
+<td>SNP-level genetic associations</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td>HPO organ</td>
+<td><code>hpo_organ_features.csv</code></td>
+<td>Organ-system involvement patterns</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td>HPO phenotype</td>
+<td><code>hpo_phenotype_stats.csv</code></td>
+<td>Phenotype co-occurrence statistics</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td>IEDB antigen</td>
+<td><code>iedb_onehot_features.csv</code></td>
+<td>Antigen identity encoding</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td>IEDB epitope</td>
+<td><code>iedb_statistical_features.csv</code></td>
+<td>Epitope statistical features</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-heteropna-attn-gnn">③ HeteroPNA-Attn GNN</h3>
+<p>A dual-branch graph neural network combining <strong>PNA multi-aggregation</strong> (mean / max / min / std with degree-scaling amplification) on a homogeneous projection graph with <strong>HGT heterogeneous attention</strong> on the full typed graph — preserving the semantic distinctions between disease, gene, drug, and immune_cell nodes throughout message passing.</p>
+<h3 id="-novelty-penalised-scoring">④ Novelty-penalised scoring</h3>
+<pre class="hljs"><code><div>
+Score_final = Score_combined / log(2 + Degree(target))
+
+</div></code></pre>
+<p>Well-studied, highly-connected targets are down-ranked; long-tail candidates with genuine biological signal — including immune_cell-proximal targets that lack classical disease–gene links — rise in the ranking.</p>
+<hr>
+<h2 id="-prerequisites">📋 Prerequisites</h2>
+<pre class="hljs"><code><div>python --version    <span class="hljs-comment"># 3.8+</span>
+nvidia-smi          <span class="hljs-comment"># GPU strongly recommended</span>
+</div></code></pre>
+<hr>
+<h2 id="-quick-start">⚡ Quick Start</h2>
+<h3 id="1--install">1 · Install</h3>
+<pre class="hljs"><code><div>pip install -r requirements.txt
+
+<span class="hljs-comment"># GNN support — match your PyTorch/CUDA version</span>
+pip install torch-geometric
+<span class="hljs-comment"># [https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)</span>
+</div></code></pre>
+<h3 id="2--place-feature-data">2 · Place feature data</h3>
+<pre class="hljs"><code><div>data/gwas_genetic_features.csv 
+data/hpo_organ_features.csv
+data/hpo_phenotype_stats.csv
+data/iedb_onehot_features.csv
+data/iedb_statistical_features.csv
+</div></code></pre>
+<h3 id="3--train">3 · Train</h3>
+<pre class="hljs"><code><div>python train.py
+</div></code></pre>
+<p>Results appear in <code>results/</code>.</p>
+<hr>
+<h2 id="-training">🚀 Training</h2>
+<pre class="hljs"><code><div>python train.py                          <span class="hljs-comment"># default config</span>
+python train.py --config configs/custom.yaml
+python train.py --force-retrain          <span class="hljs-comment"># ignore checkpoints</span>
+
+<span class="hljs-comment"># Lightweight modes</span>
+python train.py --no-gnn                 <span class="hljs-comment"># ComplEx + FFN only</span>
+python train.py --no-novelty             <span class="hljs-comment"># skip novelty penalty</span>
+python train.py --no-gnn --no-novelty    <span class="hljs-comment"># fastest baseline</span>
+</div></code></pre>
+<hr>
+<h2 id="-prediction">🔮 Prediction</h2>
+<p>All modes load trained artefacts from <code>results/</code> automatically.</p>
+<h3 id="mode-1--disease-target-scoring">Mode 1 · Disease target scoring</h3>
+<p>The primary use case. Scores all gene/protein targets against one or more disease keywords using the full ComplEx + fusion + GNN pipeline.</p>
+<pre class="hljs"><code><div><span class="hljs-comment"># Rank all gene/protein targets against given disease keyword(s)</span>
+python predict.py --mode target_scoring \
+    --keywords <span class="hljs-string">&quot;colitis&quot;</span> <span class="hljs-string">&quot;crohn disease&quot;</span> \
+    --top-k 50
+
+<span class="hljs-comment"># Restrict to specific relation types</span>
+python predict.py --mode target_scoring \
+    --keywords <span class="hljs-string">&quot;ulcerative colitis&quot;</span> \
+    --relations P U D --top-k 50
+</div></code></pre>
+<h3 id="mode-2--embedding-similarity">Mode 2 · Embedding similarity</h3>
+<p>Inspect embedding-space neighbours of any entity, including immune cell nodes.</p>
+<pre class="hljs"><code><div><span class="hljs-comment"># Find entities most similar to IL-6 in embedding space</span>
+python predict.py --mode similarity --entity <span class="hljs-string">&quot;il6&quot;</span> --top-k 20
+
+<span class="hljs-comment"># Find gene/protein nodes most similar to Th17 cell</span>
+python predict.py --mode similarity \
+    --entity <span class="hljs-string">&quot;th17 cell&quot;</span> --filter-type <span class="hljs-string">&quot;gene/protein&quot;</span> --top-k 20
+</div></code></pre>
+<h3 id="utilities">Utilities</h3>
+<pre class="hljs"><code><div>python predict.py --list-relations                          <span class="hljs-comment"># full relation table with triple counts</span>
+python predict.py --list-entities --entity-type disease
+python predict.py --list-entities --entity-type immune_cell
+python predict.py --list-entities --entity-type gene/protein
+</div></code></pre>
+<hr>
+<h2 id="-immune-cell-interpretability-analysis">🔬 Immune Cell Interpretability Analysis</h2>
+<p>The <code>explain_immunecell.py</code> script quantifies and visualises the <strong>structural contribution</strong> of immune cell nodes to target scoring predictions.
+It is the recommended entry point for using the <code>immune_cell</code> layer of immuneKG.</p>
+<h3 id="how-it-works">How it works</h3>
+<p>Two complementary bridging paths are computed for every immune cell:</p>
+<pre class="hljs"><code><div>Path A  (IcDv bridge):
+  Top-ranked Gene ──IcDv──&gt; ImmuneCell
+  A high-scoring gene also drives differentiation of this cell type.
+  icdv_score = Σ prediction_score(gene) for genes linked via IcDv
+
+Path B  (IcE bridge):
+  ImmuneCell ──IcE──&gt; Top-ranked Gene
+  A high-scoring gene is a defining marker of this cell type.
+  ice_score = Σ prediction_score(gene) for genes linked via IcE
+
+</div></code></pre>
+<p>These are <strong>post-hoc structural explanations</strong> — they reveal which immune cell subtypes are topologically wired to the predicted target set in the KG, without relying on the immune cell relations to perform link prediction.</p>
+<p>A third signal — <strong>embedding-space proximity</strong> — measures cosine similarity between each immune cell's embedding and the centroid of top-ranked gene embeddings, capturing implicit signal learned by the GNN and ComplEx model.</p>
+<h3 id="usage">Usage</h3>
+<pre class="hljs"><code><div><span class="hljs-comment"># Analyse immune cell contributions for IBD (using pre-computed scores)</span>
+python explain_immunecell.py \
+    --disease <span class="hljs-string">&quot;inflammatory bowel diseases&quot;</span> <span class="hljs-string">&quot;colitis&quot;</span> \
+    --results results/targets_inflammatory_bowel_full.csv \
+    --top-k 50 \
+    --output results/immunecell_interpretability/
+
+<span class="hljs-comment"># Rheumatoid arthritis — let the script score on the fly</span>
+python explain_immunecell.py \
+    --disease <span class="hljs-string">&quot;rheumatoid arthritis&quot;</span> \
+    --top-k 100
+
+<span class="hljs-comment"># Skip embedding proximity (faster, no GPU needed)</span>
+python explain_immunecell.py \
+    --disease <span class="hljs-string">&quot;psoriasis&quot;</span> \
+    --results results/targets_psoriasis_full.csv \
+    --no-embedding
+</div></code></pre>
+<h3 id="outputs">Outputs</h3>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>contributions_&lt;disease&gt;.csv</code></td>
+<td>Per-cell contribution scores (IcDv, IcE, combined) with bridging gene lists</td>
+</tr>
+<tr>
+<td><code>embedding_proximity_&lt;disease&gt;.csv</code></td>
+<td>Per-cell cosine similarity to top-gene centroid</td>
+</tr>
+<tr>
+<td><code>immunecell_contribution_&lt;disease&gt;.png</code></td>
+<td>Four-panel dashboard: bar chart, scatter, embedding proximity, lineage summary</td>
+</tr>
+<tr>
+<td><code>gene_cell_heatmap_&lt;disease&gt;.png</code></td>
+<td>Heatmap of top genes × top cells showing IcE/IcDv link structure</td>
+</tr>
+</tbody>
+</table>
+<h3 id="example-result--inflammatory-bowel-disease-top-50-targets">Example result — Inflammatory Bowel Disease (Top-50 targets)</h3>
+<table>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Immune Cell</th>
+<th>Combined</th>
+<th>IcDv genes</th>
+<th>IcE genes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>NKT cell</td>
+<td>8.91</td>
+<td>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>2</td>
+<td>M1 Macrophage</td>
+<td>7.70</td>
+<td>0</td>
+<td>12</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Th17 cell</strong></td>
+<td><strong>6.83</strong></td>
+<td><strong>11</strong></td>
+<td><strong>10</strong></td>
+</tr>
+<tr>
+<td>4</td>
+<td>cDC2</td>
+<td>5.80</td>
+<td>0</td>
+<td>8</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Treg cell</strong></td>
+<td><strong>5.02</strong></td>
+<td><strong>10</strong></td>
+<td><strong>7</strong></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Neutrophil</td>
+<td>4.51</td>
+<td>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Regulatory B cell</td>
+<td>4.13</td>
+<td>6</td>
+<td>14</td>
+</tr>
+</tbody>
+</table>
+<p>Th17 and Treg cells rank prominently, consistent with their established roles in IBD pathogenesis: Th17-driven IL-17/IL-22 mucosal inflammation and Treg dysfunction contributing to loss of intestinal tolerance. The analysis is grounded in graph topology, not link prediction.</p>
+<hr>
+<h2 id="-results">📊 Results</h2>
+<h3 id="ibd-target-rankings--full-pipeline-300-epochs">IBD Target Rankings — full pipeline (300 epochs)</h3>
+<blockquote>
+<p>KG scores are raw ComplEx triple scores and can be negative; the combined score
+normalises across all three components (KG + fusion + GNN).</p>
+</blockquote>
+<p><strong>Inflammatory Bowel Disease — Top 10</strong></p>
+<table>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Target</th>
+<th>Combined Score</th>
+<th>KG Score</th>
+<th>GNN Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>CAMP</td>
+<td>0.8859</td>
+<td>−13.49</td>
+<td>0.557</td>
+</tr>
+<tr>
+<td>2</td>
+<td>TNF</td>
+<td>0.8601</td>
+<td>−11.23</td>
+<td>0.588</td>
+</tr>
+<tr>
+<td>3</td>
+<td>IL6</td>
+<td>0.8338</td>
+<td>−11.20</td>
+<td>0.586</td>
+</tr>
+<tr>
+<td>4</td>
+<td>IL17A</td>
+<td>0.8487</td>
+<td>−15.43</td>
+<td>0.571</td>
+</tr>
+<tr>
+<td>5</td>
+<td>TLR2</td>
+<td>0.8260</td>
+<td>−16.35</td>
+<td>0.540</td>
+</tr>
+<tr>
+<td>6</td>
+<td>VEGFA</td>
+<td>0.8259</td>
+<td>−12.74</td>
+<td>0.566</td>
+</tr>
+<tr>
+<td>7</td>
+<td>IL4</td>
+<td>0.8182</td>
+<td>−15.07</td>
+<td>0.564</td>
+</tr>
+<tr>
+<td>8</td>
+<td>NFKB1</td>
+<td>0.8079</td>
+<td>−15.87</td>
+<td>0.540</td>
+</tr>
+<tr>
+<td>9</td>
+<td>TGFB1</td>
+<td>0.8059</td>
+<td>−13.45</td>
+<td>0.543</td>
+</tr>
+<tr>
+<td>10</td>
+<td>INS</td>
+<td>0.7912</td>
+<td>−13.76</td>
+<td>0.529</td>
+</tr>
+</tbody>
+</table>
+<p>Per-disease rankings saved to <code>results/targets_&lt;disease&gt;_top50.csv</code> and <code>results/targets_&lt;disease&gt;_full.csv</code>.</p>
+<hr>
+<h2 id="-benchmarks">🏆 Benchmarks</h2>
+<h3 id="framework-comparison">Framework Comparison</h3>
+<table>
+<thead>
+<tr>
+<th>Knowledge Graph</th>
+<th>MRR</th>
+<th>Hits@1</th>
+<th>Hits@3</th>
+<th>Hits@10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PrimeKG</td>
+<td>0.084</td>
+<td>0.034</td>
+<td>0.081</td>
+<td>0.177</td>
+</tr>
+<tr>
+<td><strong>immuneKG</strong></td>
+<td><strong>0.154</strong></td>
+<td><strong>0.080</strong></td>
+<td><strong>0.174</strong></td>
+<td><strong>0.290</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="base-model-benchmark--full-pipeline">Base Model Benchmark &amp; Full Pipeline</h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Model</th>
+<th>MRR</th>
+<th>Hits@1</th>
+<th>Hits@3</th>
+<th>Hits@10</th>
+<th>Hits@100</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Full immuneKG pipeline</strong></td>
+<td><strong>HeteroPNA-Attn</strong></td>
+<td><strong>0.1535</strong></td>
+<td><strong>0.0802</strong></td>
+<td><strong>0.1743</strong></td>
+<td><strong>0.2898</strong></td>
+<td><strong>0.5975</strong></td>
+</tr>
+<tr>
+<td>Semantic matching</td>
+<td>ComplEx</td>
+<td>0.1062</td>
+<td>0.0448</td>
+<td>0.1100</td>
+<td>0.2257</td>
+<td>0.5827</td>
+</tr>
+<tr>
+<td>Distance-based</td>
+<td>TransE</td>
+<td>0.0813</td>
+<td>0.0295</td>
+<td>0.0805</td>
+<td>0.1782</td>
+<td>0.5366</td>
+</tr>
+<tr>
+<td>Neural network</td>
+<td>ConvKB</td>
+<td>0.0706</td>
+<td>0.0199</td>
+<td>0.0671</td>
+<td>0.1646</td>
+<td>0.5440</td>
+</tr>
+<tr>
+<td>Semantic matching</td>
+<td>DistMult</td>
+<td>0.0685</td>
+<td>0.0268</td>
+<td>0.0645</td>
+<td>0.1430</td>
+<td>0.4757</td>
+</tr>
+<tr>
+<td>Distance-based</td>
+<td>TransR</td>
+<td>0.0285</td>
+<td>0.0148</td>
+<td>0.0232</td>
+<td>0.0438</td>
+<td>0.2192</td>
+</tr>
+<tr>
+<td>Semantic matching</td>
+<td>RESCAL</td>
+<td>0.0007</td>
+<td>0.0000</td>
+<td>0.0002</td>
+<td>0.0005</td>
+<td>0.0050</td>
+</tr>
+<tr>
+<td>Neural network</td>
+<td>ConvE</td>
+<td>0.0010</td>
+<td>0.0000</td>
+<td>0.0001</td>
+<td>0.0010</td>
+<td>0.0061</td>
+</tr>
+</tbody>
+</table>
+<pre class="hljs"><code><div>python benchmark_models.py --epochs 100
+python benchmark_models.py --epochs 100 --models TransE,ComplEx,ConvE,RGCN
+</div></code></pre>
+<hr>
+<h2 id="️-configuration">⚙️ Configuration</h2>
+<pre class="hljs"><code><div><span class="hljs-attr">model:</span>
+  <span class="hljs-attr">kg_model:</span> <span class="hljs-string">&quot;ComplEx&quot;</span>
+  <span class="hljs-attr">embedding_dim:</span> <span class="hljs-number">128</span>
+
+<span class="hljs-attr">training:</span>
+  <span class="hljs-attr">kg:</span>
+    <span class="hljs-attr">num_epochs:</span> <span class="hljs-number">300</span>
+    <span class="hljs-attr">batch_size:</span> <span class="hljs-number">512</span>
+    <span class="hljs-attr">learning_rate:</span> <span class="hljs-number">0.001</span>
+    <span class="hljs-attr">use_presplit:</span> <span class="hljs-literal">true</span>
+
+<span class="hljs-attr">gnn:</span>
+  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-attr">hidden_dim:</span> <span class="hljs-number">128</span>
+  <span class="hljs-attr">num_layers:</span> <span class="hljs-number">2</span>
+  <span class="hljs-attr">heads:</span> <span class="hljs-number">4</span>
+
+<span class="hljs-attr">novelty:</span>
+  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-attr">penalty_weight:</span> <span class="hljs-number">1.0</span>
+
+<span class="hljs-attr">prediction:</span>
+  <span class="hljs-attr">top_k:</span> <span class="hljs-number">50</span>
+  <span class="hljs-attr">target_entity_types:</span> [<span class="hljs-string">&quot;gene/protein&quot;</span>]
+
+</div></code></pre>
+<table>
+<thead>
+<tr>
+<th>Goal</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Faster iteration</td>
+<td><code>num_epochs: 50</code>, <code>batch_size: 1024</code></td>
+</tr>
+<tr>
+<td>Lower GPU memory</td>
+<td>Reduce <code>embedding_dim</code> or <code>batch_size</code></td>
+</tr>
+<tr>
+<td>Disable GNN</td>
+<td><code>python train.py --no-gnn</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-troubleshooting">🐛 Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>FileNotFoundError: train.tsv</code></td>
+<td>Place split files in <code>data/</code></td>
+</tr>
+<tr>
+<td>CUDA out of memory</td>
+<td>Reduce <code>batch_size</code> or <code>embedding_dim</code></td>
+</tr>
+<tr>
+<td>PyG import warning</td>
+<td>Install <code>torch-geometric</code> for your CUDA version; or use <code>--no-gnn</code></td>
+</tr>
+<tr>
+<td>Fusion training skipped</td>
+<td>At least one disease must appear in both the KG and feature CSV files</td>
+</tr>
+<tr>
+<td>Relation not recognised</td>
+<td>Run <code>python predict.py --list-relations</code></td>
+</tr>
+<tr>
+<td>Entity not found</td>
+<td>Names are all lowercase with spaces: <code>&quot;th17 cell&quot;</code> not <code>&quot;th17&quot;</code>. Run <code>--list-entities</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="-expected-runtime">⏱ Expected Runtime</h2>
+<p><em>Tested on NVIDIA A100 80 GB</em></p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KG loading &amp; preprocessing</td>
+<td>~2 min</td>
+</tr>
+<tr>
+<td>ComplEx training (300 epochs)</td>
+<td>~45 min</td>
+</tr>
+<tr>
+<td>GNN graph build</td>
+<td>~5 min</td>
+</tr>
+<tr>
+<td>HeteroPNA-Attn training</td>
+<td>~20 min</td>
+</tr>
+<tr>
+<td>Fusion network</td>
+<td>~5 min</td>
+</tr>
+<tr>
+<td>Target scoring</td>
+<td>~10 min</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>~90 min</strong></td>
+</tr>
+</tbody>
+</table>
+<p><code>--no-gnn</code> mode: ~60 min total.</p>
