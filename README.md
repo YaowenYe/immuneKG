@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="https://img.shields.io/badge/immuneKG-Immune%20Disease%20Target%20Discovery-6C3FD1?style=for-the-badge&logo=molecule&logoColor=white" alt="immuneKG"/>
@@ -27,7 +28,7 @@ Existing biomedical knowledge graphs treat the immune system as a black box — 
 
 ---
 
-<img width="1659" height="1018" alt="image" src="https://github.com/user-attachments/assets/749b0e4b-72be-4618-9227-f208fb5b1b48" />
+![3](fig1.png )
 
 ---
 
@@ -113,8 +114,11 @@ A dual-branch graph neural network combining **PNA multi-aggregation** (mean / m
 
 ### ④ Novelty-penalised scoring
 
+
 ```
+
 Score_final = Score_combined / log(2 + Degree(target))
+
 ```
 
 Well-studied, highly-connected targets are down-ranked; long-tail candidates with genuine biological signal — including immune_cell-proximal targets that lack classical disease–gene links — rise in the ranking.
@@ -139,7 +143,7 @@ pip install -r requirements.txt
 
 # GNN support — match your PyTorch/CUDA version
 pip install torch-geometric
-# https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+# [https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
 ```
 
 ### 2 · Place feature data
@@ -150,7 +154,6 @@ data/hpo_organ_features.csv
 data/hpo_phenotype_stats.csv
 data/iedb_onehot_features.csv
 data/iedb_statistical_features.csv
-
 ```
 
 ### 3 · Train
@@ -160,7 +163,6 @@ python train.py
 ```
 
 Results appear in `results/`.
-
 
 ---
 
@@ -197,7 +199,6 @@ python predict.py --mode target_scoring \
 python predict.py --mode target_scoring \
     --keywords "ulcerative colitis" \
     --relations P U D --top-k 50
-
 ```
 
 ### Mode 2 · Embedding similarity
@@ -274,7 +275,7 @@ python explain_immunecell.py \
 ### Outputs
 
 | File | Description |
-|------|-------------|
+| --- | --- |
 | `contributions_<disease>.csv` | Per-cell contribution scores (IcDv, IcE, combined) with bridging gene lists |
 | `embedding_proximity_<disease>.csv` | Per-cell cosine similarity to top-gene centroid |
 | `immunecell_contribution_<disease>.png` | Four-panel dashboard: bar chart, scatter, embedding proximity, lineage summary |
@@ -283,7 +284,7 @@ python explain_immunecell.py \
 ### Example result — Inflammatory Bowel Disease (Top-50 targets)
 
 | Rank | Immune Cell | Combined | IcDv genes | IcE genes |
-|:----:|-------------|:--------:|:----------:|:---------:|
+| --- | --- | --- | --- | --- |
 | 1 | NKT cell | 8.91 | 0 | 15 |
 | 2 | M1 Macrophage | 7.70 | 0 | 12 |
 | 3 | **Th17 cell** | **6.83** | **11** | **10** |
@@ -306,7 +307,7 @@ Th17 and Treg cells rank prominently, consistent with their established roles in
 **Inflammatory Bowel Disease — Top 10**
 
 | Rank | Target | Combined Score | KG Score | GNN Score |
-|:----:|--------|:--------------:|:--------:|:---------:|
+| --- | --- | --- | --- | --- |
 | 1 | CAMP | 0.8859 | −13.49 | 0.557 |
 | 2 | TNF | 0.8601 | −11.23 | 0.588 |
 | 3 | IL6 | 0.8338 | −11.20 | 0.586 |
@@ -322,10 +323,20 @@ Per-disease rankings saved to `results/targets_<disease>_top50.csv` and `results
 
 ---
 
-## 🏆 Base Model Benchmark (pretrained)
+## 🏆 Benchmarks
+
+### Framework Comparison
+
+| Knowledge Graph | MRR | Hits@1 | Hits@3 | Hits@10 |
+| --- | --- | --- | --- | --- |
+| PrimeKG  | 0.084 | 0.034 | 0.081 | 0.177 |
+| **immuneKG** | **0.154** | **0.080** | **0.174** | **0.290** |
+
+### Base Model Benchmark & Full Pipeline
 
 | Category | Model | MRR | Hits@1 | Hits@3 | Hits@10 | Hits@100 |
-|----------|-------|:---:|:------:|:------:|:-------:|:--------:|
+| --- | --- | --- | --- | --- | --- | --- |
+| **Full immuneKG pipeline** | **HeteroPNA-Attn** | **0.1535** | **0.0802** | **0.1743** | **0.2898** | **0.5975** |
 | Semantic matching | ComplEx | 0.1062 | 0.0448 | 0.1100 | 0.2257 | 0.5827 |
 | Distance-based | TransE | 0.0813 | 0.0295 | 0.0805 | 0.1782 | 0.5366 |
 | Neural network | ConvKB | 0.0706 | 0.0199 | 0.0671 | 0.1646 | 0.5440 |
@@ -371,7 +382,7 @@ prediction:
 ```
 
 | Goal | How |
-|------|-----|
+| --- | --- |
 | Faster iteration | `num_epochs: 50`, `batch_size: 1024` |
 | Lower GPU memory | Reduce `embedding_dim` or `batch_size` |
 | Disable GNN | `python train.py --no-gnn` |
@@ -381,7 +392,7 @@ prediction:
 ## 🐛 Troubleshooting
 
 | Symptom | Fix |
-|---------|-----|
+| --- | --- |
 | `FileNotFoundError: train.tsv` | Place split files in `data/` |
 | CUDA out of memory | Reduce `batch_size` or `embedding_dim` |
 | PyG import warning | Install `torch-geometric` for your CUDA version; or use `--no-gnn` |
@@ -396,7 +407,7 @@ prediction:
 *Tested on NVIDIA A100 80 GB*
 
 | Stage | Duration |
-|-------|:--------:|
+| --- | --- |
 | KG loading & preprocessing | ~2 min |
 | ComplEx training (300 epochs) | ~45 min |
 | GNN graph build | ~5 min |
@@ -421,4 +432,5 @@ bioRxiv 2026.04.30.721823; doi: https://doi.org/10.64898/2026.04.30.721823
 
 ## 📜 License
 
-See [LICENSE](LICENSE) for details.
+See [LICENSE](https://www.google.com/search?q=LICENSE) for details.
+
