@@ -32,7 +32,7 @@ Existing biomedical knowledge graphs treat the immune system as a black box — 
 
 ---
 
-## ✨ Core Innovations
+##  Core Innovations
 
 ### 〇 Novel entity type: `immune_cell`
 
@@ -125,7 +125,7 @@ Well-studied, highly-connected targets are down-ranked; long-tail candidates wit
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 ```bash
 python --version    # 3.8+
@@ -134,7 +134,7 @@ nvidia-smi          # GPU strongly recommended
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1 · Install
 
@@ -166,7 +166,7 @@ Results appear in `results/`.
 
 ---
 
-## 🚀 Training
+##  Training
 
 ```bash
 python train.py                          # default config
@@ -181,7 +181,7 @@ python train.py --no-gnn --no-novelty    # fastest baseline
 
 ---
 
-## 🔮 Prediction
+##  Prediction
 
 All modes load trained artefacts from `results/` automatically.
 
@@ -225,7 +225,7 @@ python predict.py --list-entities --entity-type gene/protein
 
 ---
 
-## 🔬 Immune Cell Interpretability Analysis
+##  Immune Cell Interpretability Analysis
 
 The `explain_immunecell.py` script quantifies and visualises the **structural contribution** of immune cell nodes to target scoring predictions.
 It is the recommended entry point for using the `immune_cell` layer of immuneKG.
@@ -323,7 +323,7 @@ Per-disease rankings saved to `results/targets_<disease>_top50.csv` and `results
 
 ---
 
-## 🏆 Benchmarks
+##  Benchmarks
 
 ### Framework Comparison
 
@@ -352,7 +352,7 @@ python benchmark_models.py --epochs 100 --models TransE,ComplEx,ConvE,RGCN
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ```yaml
 model:
@@ -389,20 +389,7 @@ prediction:
 
 ---
 
-## 🐛 Troubleshooting
-
-| Symptom | Fix |
-| --- | --- |
-| `FileNotFoundError: train.tsv` | Place split files in `data/` |
-| CUDA out of memory | Reduce `batch_size` or `embedding_dim` |
-| PyG import warning | Install `torch-geometric` for your CUDA version; or use `--no-gnn` |
-| Fusion training skipped | At least one disease must appear in both the KG and feature CSV files |
-| Relation not recognised | Run `python predict.py --list-relations` |
-| Entity not found | Names are all lowercase with spaces: `"th17 cell"` not `"th17"`. Run `--list-entities` |
-
----
-
-## ⏱ Expected Runtime
+##  Expected Runtime
 
 *Tested on NVIDIA A100 80 GB*
 
