@@ -417,7 +417,7 @@ bioRxiv 2026.04.30.721823; doi: https://doi.org/10.64898/2026.04.30.721823
 
 ---
 
-## 📜 License
+## License
 
 See [LICENSE](https://github.com/YaowenYe/immuneKG/blob/main/LICENSE) for details.
 
