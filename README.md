@@ -45,8 +45,8 @@ Most KG frameworks model three node types. immuneKG adds a fourth:
 <table>
 <thead>
 <tr>
-<th align="center">🛡️ Innate Immunity</th>
-<th align="center">🎯 Adaptive Immunity</th>
+<th align="center"> Innate Immunity</th>
+<th align="center"> Adaptive Immunity</th>
 </tr>
 </thead>
 <tbody>
@@ -297,7 +297,7 @@ Th17 and Treg cells rank prominently, consistent with their established roles in
 
 ---
 
-## 📊 Results
+## Results
 
 ### IBD Target Rankings — full pipeline (300 epochs)
 
@@ -407,7 +407,7 @@ prediction:
 
 ---
 
-## 📄 Citation
+## Citation
 
 If you use immuneKG in your research, please cite the associated manuscript.
 
