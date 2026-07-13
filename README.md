@@ -114,6 +114,7 @@ A dual-branch graph neural network combining **PNA multi-aggregation** (mean / m
 
 ### ④ Novelty-penalised scoring
 
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/044ebca3-8559-499f-8d7a-6adc6ee89b54" />
 
 ```
 
