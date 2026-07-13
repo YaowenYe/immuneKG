@@ -125,15 +125,6 @@ Well-studied, highly-connected targets are down-ranked; long-tail candidates wit
 
 ---
 
-##  Prerequisites
-
-```bash
-python --version    # 3.8+
-nvidia-smi          # GPU strongly recommended
-```
-
----
-
 ##  Quick Start
 
 ### 1 · Install
@@ -141,7 +132,7 @@ nvidia-smi          # GPU strongly recommended
 ```bash
 pip install -r requirements.txt
 
-# GNN support — match your PyTorch/CUDA version
+# GNN support
 pip install torch-geometric
 # [https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
 ```
