@@ -213,25 +213,6 @@ python predict.py --list-entities --entity-type gene/protein
 The `explain_immunecell.py` script quantifies and visualises the **structural contribution** of immune cell nodes to target scoring predictions.
 It is the recommended entry point for using the `immune_cell` layer of immuneKG.
 
-### How it works
-
-Two complementary bridging paths are computed for every immune cell:
-
-```
-Path A  (IcDv bridge):
-  Top-ranked Gene ──IcDv──> ImmuneCell
-  A high-scoring gene also drives differentiation of this cell type.
-  icdv_score = Σ prediction_score(gene) for genes linked via IcDv
-
-Path B  (IcE bridge):
-  ImmuneCell ──IcE──> Top-ranked Gene
-  A high-scoring gene is a defining marker of this cell type.
-  ice_score = Σ prediction_score(gene) for genes linked via IcE
-```
-
-These are **post-hoc structural explanations** — they reveal which immune cell subtypes are topologically wired to the predicted target set in the KG, without relying on the immune cell relations to perform link prediction.
-
-A third signal — **embedding-space proximity** — measures cosine similarity between each immune cell's embedding and the centroid of top-ranked gene embeddings, capturing implicit signal learned by the GNN and ComplEx model.
 
 ### Usage
 
@@ -307,8 +288,6 @@ Per-disease rankings saved to `results/targets_<disease>_top50.csv` and `results
 ---
 
 ##  Benchmarks
-<img width="739" height="466" alt="image" src="https://github.com/user-attachments/assets/5332f8a9-d5b5-4b1d-963e-4e8ab68ebd85" />
-<img width="690" height="445" alt="image" src="https://github.com/user-attachments/assets/ae72fe69-68a2-49d0-86f0-1e0dec089de3" />
 
 ### Framework Comparison
 
