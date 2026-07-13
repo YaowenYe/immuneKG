@@ -147,14 +147,6 @@ data/iedb_onehot_features.csv
 data/iedb_statistical_features.csv
 ```
 
-### 3 · Train
-
-```bash
-python train.py
-```
-
-Results appear in `results/`.
-
 ---
 
 ##  Training
@@ -181,7 +173,7 @@ All modes load trained artefacts from `results/` automatically.
 The primary use case. Scores all gene/protein targets against one or more disease keywords using the full ComplEx + fusion + GNN pipeline.
 
 ```bash
-# Rank all gene/protein targets against given disease keyword(s)
+# Rank all gene/protein targets against given disease keywords
 python predict.py --mode target_scoring \
     --keywords "colitis" "crohn disease" \
     --top-k 50
@@ -315,6 +307,8 @@ Per-disease rankings saved to `results/targets_<disease>_top50.csv` and `results
 ---
 
 ##  Benchmarks
+<img width="739" height="466" alt="image" src="https://github.com/user-attachments/assets/5332f8a9-d5b5-4b1d-963e-4e8ab68ebd85" />
+<img width="690" height="445" alt="image" src="https://github.com/user-attachments/assets/ae72fe69-68a2-49d0-86f0-1e0dec089de3" />
 
 ### Framework Comparison
 
